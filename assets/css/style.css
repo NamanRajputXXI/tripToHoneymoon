@@ -206,3 +206,9 @@ footer :is(a, i) {
 #tst > img + div {
   background-color: rgba(0, 0, 0, 0.444);
 }
+
+@media (min-width: 300px) {
+  .vision {
+    flex-direction: column-reverse;
+  }
+}
