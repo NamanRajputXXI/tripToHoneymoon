@@ -70,7 +70,9 @@
 
           <div class="collapse navbar-collapse flex-grow-0" id="header_nav">
             <div>
-              <a href="#" class="m-2 text-decoration-none text-dark small"
+              <a
+                href="./index.html"
+                class="m-2 text-decoration-none text-dark small"
                 >Home</a
               >
               <a
@@ -319,44 +321,63 @@
           </div>
         </div>
       </section>
-      <!-- form section  -->
-      <section>
-        <div
-          class="container d-flex flex-column justify-content-center align-items-center"
-        >
-          <div class="w-75">
-            <h1 class="text-center my-4">News Letter</h1>
-            <form>
-              <!-- Email input -->
-              <label class="form-label" for="form4Example2"
-                >Email address</label
-              >
-              <div class="form-outline mb-4">
-                <input type="email" id="form4Example2" class="form-control" />
-              </div>
 
-              <!-- Message input -->
-              <div class="form-outline mb-4">
-                <label class="form-label" for="form4Example3">Message</label>
-                <textarea
-                  class="form-control"
-                  id="form4Example3"
-                  rows="4"
-                ></textarea>
-              </div>
-              <!-- Submit button -->
-              <button type="submit" class="btn btn-primary btn-block mb-4">
-                Send
-              </button>
-            </form>
-          </div>
+      <section
+        class="d-flex w-100 flex-lg-row flex-column align-items-center px-5 justify-content-center"
+      >
+        <div class="aboutform__image mx-5 my-5">
+          <img src="./assets/img/mission.jpg" alt="" />
         </div>
+
+        <div class="hero__section--right">
+          <h3>Quick Apply</h3>
+          <form
+            class="hero__section--form"
+            id="hero__section--form"
+            name="heroContact-form"
+          >
+            <div class="form-outline">
+              <input
+                type="text"
+                id="form2Example3"
+                placeholder=" Full Name"
+                class="form-control"
+              />
+            </div>
+            <div class="form-outline">
+              <input
+                type="number"
+                id="form2Example1"
+                placeholder="Mobile"
+                class="form-control"
+              />
+            </div>
+
+            <div class="form-outline">
+              <input
+                type="email"
+                id="form2Example2"
+                placeholder="Email"
+                class="form-control"
+              />
+            </div>
+
+            <div class="checkbox__box agreeMessage">
+              <input type="checkbox" value="notification" id="notification" />
+              <label for="notification"
+                >I agree to get all Email/SMS from you</label
+              >
+            </div>
+            <button type="button" class="btn btn-success w-50">Submit</button>
+          </form>
+        </div>
+        <!-- </div> -->
       </section>
     </main>
     <footer class="bg-light py-5 text-dark">
       <div class="container">
         <div class="row gap-5 border-bottom border-dark-subtle py-5">
-          <div class="col-5">
+          <div class="col-lg-3 col-12">
             <img src="assets/img/logo.png" id="footer-brand" />
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum,
@@ -365,21 +386,21 @@
               pariatur dignissimos at magnam illo minima?
             </p>
           </div>
-          <div class="col">
+          <div class="col-3">
             <h3 class="fs-4">Policy</h3>
             <ul class="list-unstyled">
               <li><a href="#" class="text-decoration-none">Privacy</a></li>
               <li><a href="#" class="text-decoration-none">Terms of Use</a></li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-lg-2 col-4">
             <h3 class="fs-4">Support</h3>
             <ul class="list-unstyled">
               <li><a href="#" class="text-decoration-none">Contact Us</a></li>
               <li><a href="#" class="text-decoration-none">About Us</a></li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-lg-2 col-3">
             <h3 class="fs-4">Quick Links</h3>
             <ul class="list-unstyled">
               <li>
