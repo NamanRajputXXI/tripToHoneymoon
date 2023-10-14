@@ -313,3 +313,14 @@ footer :is(a, i) {
   height: 100px;
   /* width: 100px; */
 }
+.owl-nav span {
+  background-color: white;
+  color: black;
+  border: none;
+  outline: none;
+}
+.owl-next,
+.owl-prev :active {
+  background-color: white;
+  border: none;
+}
