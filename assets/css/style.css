@@ -308,3 +308,8 @@ footer :is(a, i) {
     font-weight: 600;
   }
 }
+.owl-nav {
+  font-size: 60px;
+  height: 100px;
+  /* width: 100px; */
+}
