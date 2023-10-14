@@ -54,9 +54,9 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
         <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand" aria-label="logo">
+          <a href="./index.html" class="navbar-brand" aria-label="logo">
             <img
               class="navbar-brand"
               id="logo"
@@ -64,10 +64,23 @@
               alt=""
             />
           </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#header_nav"
+            aria-controls="header_nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-          <div class="collapse navbar-collapse flex-grow-0" id="header_nav">
+          <!-- <div class="collapse navbar-collapse flex-grow-0" id="header_nav">
             <div>
-              <a href="#" class="m-2 text-decoration-none text-dark small"
+              <a
+                href="./index.html"
+                class="m-2 text-decoration-none text-dark small"
                 >Home</a
               >
               <a
@@ -99,24 +112,44 @@
               <a class="m-2 text-decoration-none text-dark small" href="">
                 1800-121-0140
               </a>
-              <!-- <div class="d-flex justify-content-center align-items-center">
-                <i class="fa-solid fa-phone"></i>
-                <p>1800-121-0140</p>
-              </div> -->
+             
             </div>
-          </div>
+          </div> -->
+          <div class="collapse navbar-collapse flex-grow-0" id="header_nav">
+            <ul
+              class="navbar-nav d-flex flex-xs-column flex-lg-row w-100 justify-content-center align-items-center"
+            >
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#header_nav"
-            aria-controls="header_nav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+              <li class="nav-item">
+                <a class="nav-link" href="./domestic.html">Domestic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./international.html">Internation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blogs.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="text-decoration-none text-dark small">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+                <a class="text-decoration-none text-dark small" href="">
+                  1800-121-0140
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
 
