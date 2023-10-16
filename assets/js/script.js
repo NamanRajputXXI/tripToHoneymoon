@@ -1,6 +1,7 @@
 $("#header-carousel").owlCarousel({
   center: true,
   // autoplay: true,
+  autoplay: true,
   stagePadding: 20,
   autoplayTimeout: 3000,
   autoplayHoverPause: true,
