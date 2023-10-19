@@ -8,14 +8,14 @@ $("#header-carousel").owlCarousel({
   items: 1,
   responsive: {
     768: {
+      items: 3,
+    },
+    576: {
       items: 2,
     },
-    // 480: {
-    //   items: 2,
-    // },
-    // 320: {
-    //   items: 1,
-    // },
+    320: {
+      items: 1,
+    },
   },
 });
 

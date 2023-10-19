@@ -189,14 +189,7 @@ footer :is(a, i) {
   color: var(--text-dark);
 }
 
-/* #header-carousel .item:nth-child(1) {
-  background: url(../../assets/img/nepal.jpg);
-  background-size: contain;
-}
-#header-carousel .item:nth-child(2) {
-  background: url(../../assets/img/maldives.jpg);
-  background-size: contain;
-} */
+
 
 #header-carousel .item > p + div {
   background-color: rgba(0, 0, 0, 0.174);
