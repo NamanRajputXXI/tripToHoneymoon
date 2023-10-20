@@ -209,18 +209,22 @@ footer :is(a, i) {
     flex-direction: column-reverse;
   }
 }
+.aboutform__image img{
+  height:400px ;
+  width: 550px;
+}
 .hero__section--right {
   border: 1px solid white;
-  border-radius: 10px;
   backdrop-filter: blur(10px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 15px;
-  gap: 35px;
+  gap: 50px;
   background-color: #f5f5f5;
-  padding: 50px 20px;
+  padding: 33px 40px;
+  
 }
 .hero__section--right input {
   width: 350px;
@@ -246,9 +250,13 @@ footer :is(a, i) {
   gap: 20px;
   padding-top: 20px;
 }
+
 @media (max-width: 1250px) {
   .aboutform__image img {
     height: 400px;
+    width: 500px;
+  }
+  .hero__section--right{
     width: 500px;
   }
 }
@@ -287,6 +295,9 @@ footer :is(a, i) {
 @media (max-width: 480px) {
   .form-outline input {
     width: 250px;
+  }
+  .hero__section--right{
+    width: 280px;
   }
   .aboutform__image img {
     height: 280px;
