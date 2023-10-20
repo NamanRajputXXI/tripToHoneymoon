@@ -214,10 +214,11 @@ footer :is(a, i) {
   width: 550px;
 }
 .hero__section--right {
-  border: 1px solid white;
+ 
   backdrop-filter: blur(10px);
   display: flex;
   flex-direction: column;
+  
   justify-content: center;
   align-items: center;
   padding: 15px;
@@ -322,9 +323,12 @@ footer :is(a, i) {
   color: black;
   border: none;
   outline: none;
+  display: flex;
+  width: 100%;
 }
-.owl-next,
-.owl-prev :active {
+.owl-next :hover,
+.owl-prev :hover {
   background-color: white;
   border: none;
+  color: black;
 }
