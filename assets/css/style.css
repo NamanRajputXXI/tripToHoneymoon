@@ -2,6 +2,43 @@
   height: 67px;
 }
 
+.packages__header{
+  background-image: url(https://wallpapercave.com/wp/SUjJXpk.jpg);
+  background-size: cover;
+  height: 700px;
+  /* background-color:rebeccapurple; */
+  width: 100%;
+}
+.itinerary--content{
+  display: flex;
+  width: 100%;
+  margin-left: -10px;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+.itinerary--image {
+  flex:0.5;
+  width: 40%;
+  overflow: hidden;
+  height: 550px;
+}
+.itinerary--image img{
+  height: 550px;
+}
+.itinerary--text{
+  flex: 0.5;
+  height: 550px;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #cc3d20;
+  color: #fff;
+  padding: 20px 30px;
+  justify-content: center;
+   gap: 20px;
+
+}
 #header-atf {
   /* background-image: url(https://images.pexels.com/photos/1460230/pexels-photo-1460230.jpeg); */
   background-image: url(https://images.unsplash.com/photo-1614851099511-773084f6911d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
@@ -203,7 +240,24 @@ footer :is(a, i) {
 #tst > img + div {
   background-color: rgba(0, 0, 0, 0.444);
 }
+@media (max-width:1024px) {
+  .itinerary--content{
+   
+    height: fit-content;
+    flex-direction: column;
 
+  }
+  .itinerary--text{
+    height: 300px;
+     gap: 10px;
+     flex: 1;
+   }
+   .itinerary--image {
+    flex:1;
+    width: 100%;
+    }
+  
+}
 @media (min-width: 300px) {
   .vision {
     flex-direction: column-reverse;

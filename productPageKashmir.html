@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage - TripToHoneymoon</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="src/main.css" />
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="assets/js/script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pr-2 pb-3">
+      <div class="container d-flex justify-content-between">
+        <a href="../../index.html" class="navbar-brand" aria-label="logo">
+          <img
+            class="navbar-brand"
+            id="logo"
+            src="../../assets/img/logo.png"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#header_nav"
+          aria-controls="header_nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- <div class="collapse navbar-collapse flex-grow-0" id="header_nav">
+          <div>
+            <a
+              href="./index.html"
+              class="m-2 text-decoration-none text-dark small"
+              >Home</a
+            >
+            <a
+              href="./about.html"
+              class="m-2 text-decoration-none text-dark small"
+              >About Us</a
+            >
+            <a
+              href="./domestic.html"
+              class="m-2 text-decoration-none text-dark small"
+              >Domestic</a
+            >
+            <a
+              href="./international.html"
+              class="m-2 text-decoration-none text-dark small"
+              >International</a
+            >
+            <a href="#" class="m-2 text-decoration-none text-dark small"
+              >Blogs</a
+            >
+            <a
+              href="./contact.html"
+              class="m-2 text-decoration-none text-dark small"
+              >Contact Us</a
+            >
+            <a href="" class="m-2 text-decoration-none text-dark small">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+            <a class="m-2 text-decoration-none text-dark small" href="">
+              1800-121-0140
+            </a>
+           
+          </div>
+        </div> -->
+        <div class="collapse navbar-collapse flex-grow-0" id="header_nav">
+          <ul
+            class="navbar-nav d-flex flex-xs-column flex-lg-row w-100 justify-content-center align-items-center"
+          >
+            <li class="nav-item active">
+              <a class="nav-link" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../../domestic.html">Domestic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../international.html"
+                >International</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-decoration-none text-dark small" href="">
+                <button class="btn btn-dark">
+                  <i class="fa-solid fa-phone px-1"></i>1800-121-0140
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- header -->
+
+    <header>
+      <!-- Gallery -->
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <img
+            src="../../assets/img/kashmir-cat.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"
+          />
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Wintry Mountain Landscape"
+          />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Mountains in the Clouds"
+          />
+
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Boat on Calm Water"
+          />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Waves at Sea"
+          />
+
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Yosemite National Park"
+          />
+        </div>
+      </div>
+    </header>
+
+    <footer class="bg-light py-5 text-dark">
+      <div class="container">
+        <div class="row gap-5 border-bottom border-dark-subtle py-5">
+          <div class="col-lg-3 col-12">
+            <img src="/assets/img/logo.png" id="footer-brand" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum,
+              dolores magni sunt distinctio consequatur expedita tempora
+              eligendi doloremque deleniti. Ex similique possimus sed, facilis
+              pariatur dignissimos at magnam illo minima?
+            </p>
+          </div>
+          <div class="col-3">
+            <h3 class="fs-4">Policy</h3>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none">Privacy</a></li>
+              <li><a href="#" class="text-decoration-none">Terms of Use</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-4">
+            <h3 class="fs-4">Support</h3>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+              <li><a href="#" class="text-decoration-none">About Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-3">
+            <h3 class="fs-4">Quick Links</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none">Honeymoon in Kerala</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">Honeymoon in Paris</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-content-center my-5">
+          <div>&copy; TriptoHoneymoon 2023. All Rights Reserved.</div>
+          <div>
+            Follow Us On:
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-instagram"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-facebook"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script></script>
+  </body>
+</html>
