@@ -61,6 +61,20 @@
 .item7{
   grid-area:I7;
 }
+.tour__package--left{
+  width: 75%;
+}
+.tour__package--right{
+  width: 25%;
+}
+
+.grid__container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
 
 #header-atf {
   /* background-image: url(https://images.pexels.com/photos/1460230/pexels-photo-1460230.jpeg); */
@@ -264,6 +278,13 @@ footer :is(a, i) {
   background-color: rgba(0, 0, 0, 0.444);
 }
 @media (max-width:1024px) {
+  .grid__container{
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  
+ 
   .grid{
     display: grid;
     gap: 5px;
@@ -273,6 +294,12 @@ footer :is(a, i) {
      "I4 I5 I6 I7"
      "I4 I5 I6 I7"
   } 
+  .tour__package--left{
+    width: 100%;
+  }
+  .tour__package--right{
+    width: 100%;
+  }
 }
 @media (min-width: 300px) {
   .vision {
@@ -352,6 +379,11 @@ footer :is(a, i) {
   gap: 20px;
 }
 @media (max-width: 786px) {
+  .grid__container{
+    
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
   
   .hero__section--content {
     flex-direction: column;
@@ -365,6 +397,11 @@ footer :is(a, i) {
   }
 }
 @media (max-width: 480px) {
+  .grid__container{
+    
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
   .form-outline input {
     width: 250px;
   }
