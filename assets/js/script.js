@@ -57,11 +57,13 @@ $(".owl-carousel").owlCarousel({
   loop: true,
   margin: 10,
   nav: true,
+  navText:["<div class='nav-btn prev-slide'><i class='fa-solid fa-arrow-left'></i></div>","<div class='nav-btn next-slide'><i class='fa-solid fa-arrow-right'></i></div>"],
+  autplay: true,
   responsive: {
     0: {
       items: 1,
     },
-    600: {
+    800: {
       items: 2,
     },
     1000: {
