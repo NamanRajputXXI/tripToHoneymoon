@@ -25,6 +25,10 @@
   font-size: 50px;
   color: #cc3d20;
 }
+.details__list i{
+  color: #cc3d20;
+  padding-right: 10px;
+}
 .grid{
   display: grid;
   gap: 10px;
