@@ -161,6 +161,7 @@
 }
 .item3{
   grid-area:I3;
+  height: 250px;
 }
 .item4{
   grid-area:I4;
@@ -420,6 +421,9 @@ footer :is(a, i) {
   }
   .item3{
     grid-area:I3;
+    
+      height: 150px;
+    
   }
   .item4{
     grid-area:I4;
