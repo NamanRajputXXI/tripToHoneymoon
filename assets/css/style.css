@@ -1,8 +1,15 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400&f[]=telma@400&display=swap');
+
+*{
+  
+  font-family: 'Satoshi', sans-serif;
+
+}
 #logo {
   height: 67px;
 }
 .product__page--content{
-  background: linear-gradient(to right, #2a3888, #cc3d20);
+  /* background: linear-gradient(to right, #2a3888, #cc3d20); */
   height: 100%;
   width: 100%;
 }
@@ -128,6 +135,7 @@
   display: grid;
   
   max-height: 600px; 
+  gap: 7px;
   overflow: hidden;
   
   grid-template-areas:
@@ -182,6 +190,9 @@
   justify-content: center;
   align-items: center;
 }
+
+
+/* itinerary section styling  */
 
 
 #header-atf {
