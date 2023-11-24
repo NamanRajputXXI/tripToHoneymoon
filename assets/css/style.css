@@ -572,12 +572,9 @@ footer :is(a, i) {
     font-size: 30px;
     top: 60px !important;
 } 
-  .grid__container{
-    
-    grid-template-columns: repeat(2, 1fr);
-    
+  .grid__container{  
+    grid-template-columns: repeat(2, 1fr);  
   }
-  
   .hero__section--content {
     flex-direction: column;
     gap: 30px;
@@ -600,7 +597,6 @@ footer :is(a, i) {
     right: 30px;
     background-color: transparent;
 }
-  
 }
 @media (max-width: 480px) {
   .owl-carousel .nav-btn{  
