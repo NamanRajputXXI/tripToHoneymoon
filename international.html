@@ -69,45 +69,6 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <!-- <div class="collapse navbar-collapse flex-grow-0" id="header_nav">
-            <div>
-              <a
-                href="./index.html"
-                class="m-2 text-decoration-none text-dark small"
-                >Home</a
-              >
-              <a
-                href="./about.html"
-                class="m-2 text-decoration-none text-dark small"
-                >About Us</a
-              >
-              <a
-                href="./domestic.html"
-                class="m-2 text-decoration-none text-dark small"
-                >Domestic</a
-              >
-              <a
-                href="./international.html"
-                class="m-2 text-decoration-none text-dark small"
-                >International</a
-              >
-              <a href="#" class="m-2 text-decoration-none text-dark small"
-                >Blogs</a
-              >
-              <a
-                href="./contact.html"
-                class="m-2 text-decoration-none text-dark small"
-                >Contact Us</a
-              >
-              <a href="" class="m-2 text-decoration-none text-dark small">
-                <i class="fa-solid fa-phone"></i>
-              </a>
-              <a class="m-2 text-decoration-none text-dark small" href="">
-                1800-121-0140
-              </a>
-             
-            </div>
-          </div> -->
           <div class="collapse navbar-collapse flex-grow-0" id="header_nav">
             <ul
               class="navbar-nav d-flex flex-xs-column flex-lg-row w-100 justify-content-center align-items-center"
@@ -144,11 +105,50 @@
           </div>
         </div>
       </nav>
-      <div
-        class="container-fluid py-5 text-light d-flex align-items-center justify-content-center"
-        id="header-atf"
-      >
-        <h1>International</h1>
+      <div class="text-light" id="international__header">
+        <div class="py-5 m">
+          <div
+            class="bg-light my-5 col-md-8 text-dark fw-bold mb-5 p-3 d-flex align-items-center rounded-3 mx-auto flex-wrap"
+          >
+            <div
+              class="border-end border-black ps-3 pe-4 text-center d-flex flex-column align-items-start"
+            >
+              <span class="">Find Your</span>
+              <!-- <br /> -->
+              <span class="">Holiday</span>
+            </div>
+            <div
+              class="d-flex flex-wrap flex-md-nowrap flex-grow-1 justify-content-center align-items-center ms-2 px-2"
+            >
+              <span class="small">To</span>
+              <input
+                type="text"
+                aria-label="enter location"
+                class="ms-3 py-1 px-3 flex-grow-1 d-inline-flex w-100"
+              />
+              <i
+                class="fa-solid fa-earth-americas h5 bg-danger text-white py-2 px-2 mt-2"
+              ></i>
+            </div>
+            <div
+              class="d-flex flex-wrap flex-md-nowrap flex-grow-1 justify-content-center align-items-center px-2"
+            >
+              <span class="small">When</span>
+              <input
+                type="text"
+                aria-label="enter location"
+                class="ms-3 py-1 px-3 flex-grow-1 w-100"
+              />
+              <i
+                class="fa-regular fa-calendar-days h5 bg-danger text-white py-2 px-2 mt-2"
+              ></i>
+            </div>
+            <a href="#" class="btn flex-grow-1 btn-danger py-1 ms-3 rounded-0"
+              >Search</a
+            >
+          </div>
+        </div>
+        <!-- <h1>International</h1> -->
       </div>
     </header>
 
@@ -157,20 +157,20 @@
       <section
         class="container mb-5 d-flex gap-4 flex-column justify-content-center align-items-center"
       >
-        <h1>International</h1>
+        <h1>International Trip</h1>
         <p class="text-wrap">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis,
-          inventore vel! Blanditiis, commodi. Ullam placeat facilis sunt sit,
-          impedit dicta exercitationem, corporis sed assumenda in eos
-          repellendus, dolore voluptatem esse! Consectetur earum hic, magnam
-          possimus temporibus, voluptates quis voluptatibus laudantium error
-          nostrum officia? Adipisci, aliquid. Fugiat at nobis libero mollitia
-          velit impedit tempore. Qui eligendi, et laborum maiores cum eius eaque
-          reprehenderit dolores cumque iusto vero ipsum molestias expedita
-          veniam recusandae ad asperiores ducimus. Sit, nam? Qui dolores
-          assumenda sunt dolorum nemo aut placeat delectus facere error
-          similique incidunt sit obcaecati unde, vitae officiis enim mollitia
-          repellendus perferendis a nobis.
+          Embark on a thrilling international adventure! Explore diverse
+          cultures and breathtaking landscapes. Whether you're wandering through
+          ancient cities, savoring exotic cuisine, or indulging in the charm of
+          local traditions, an international trip promises unforgettable
+          moments. Discover hidden gems and create memories that will last a
+          lifetime. From iconic landmarks to off-the-beaten-path treasures, this
+          journey will immerse you in the beauty of our global community. Get
+          ready for an expedition filled with new experiences, vibrant colors,
+          and the warmth of hospitality from around the world. Embrace the
+          excitement of travel and let the international allure captivate your
+          senses! Pack your bags, and let the exploration begin. Your next
+          adventure awaits in the heart of the international tapestry.
         </p>
       </section>
 
@@ -178,35 +178,266 @@
       <section class="py-5 my-5">
         <div>
           <h1 class="text-center">Top Destination</h1>
-          <div class="owl-carousel container owl-theme">
-            <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
-              <img src="assets/img/paris-product-cover-2.avif" alt="" />
-              <div class="product-info p-2 mt-2">
-                <div class="d-flex justify-content-between">
-                  <h3 class="fs-5">Paris</h3>
-                  <div>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
+          <div class="container">
+            <div class="owl-carousel carousel-theme" id="product-carousel-2">
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/maldives.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Maldives</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
                   </div>
-                </div>
-                <div
-                  class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
-                >
-                  <div>
-                    <i class="fa-solid fa-cloud-moon"></i> 6 Days 5 Nights
-                  </div>
-                  <div><i class="fa-solid fa-user-tie"></i> Travel Guide</div>
-                </div>
-                <div
-                  class="d-flex justify-content-between mt-2 align-items-center"
-                >
-                  <span class="prod-card-price">Rs. 10,999 /-</span>
-                  <a href="#" class="btn btn-primary py-1 fs-6 small"
-                    >Book Now</a
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
                   >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 30,999 /-</span>
+                    <a
+                      href="productPageMaldives.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/paris-product-cover-2.avif" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Paris</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 89,999 /-</span>
+                    <a
+                      href="./packages/international/paris.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/nepal.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Nepal</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs.19,999 /-</span>
+                    <a
+                      href="productPageNepal.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/Dubai.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Dubai</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 59,999 /-</span>
+                    <a
+                      href="productPageDubai.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/singapore.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Singapore</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 89,999 /-</span>
+                    <a
+                      href="productPageSingapore.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/thailand.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Thailand</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 69,999 /-</span>
+                    <a
+                      href="productPageThailand.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/switzerland.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Switzerland</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 199,999 /-</span>
+                    <a
+                      href="productPageSwitzerland.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -214,35 +445,266 @@
         </div>
         <div>
           <h1 class="text-center">Budget Destination</h1>
-          <div class="owl-carousel container owl-theme">
-            <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
-              <img src="assets/img/paris-product-cover-2.avif" alt="" />
-              <div class="product-info p-2 mt-2">
-                <div class="d-flex justify-content-between">
-                  <h3 class="fs-5">Paris</h3>
-                  <div>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
+          <div class="container">
+            <div class="owl-carousel carousel-theme" id="product-carousel-2">
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/maldives.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Maldives</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
                   </div>
-                </div>
-                <div
-                  class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
-                >
-                  <div>
-                    <i class="fa-solid fa-cloud-moon"></i> 6 Days 5 Nights
-                  </div>
-                  <div><i class="fa-solid fa-user-tie"></i> Travel Guide</div>
-                </div>
-                <div
-                  class="d-flex justify-content-between mt-2 align-items-center"
-                >
-                  <span class="prod-card-price">Rs. 10,999 /-</span>
-                  <a href="#" class="btn btn-primary py-1 fs-6 small"
-                    >Book Now</a
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
                   >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 30,999 /-</span>
+                    <a
+                      href="productPageMaldives.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/paris-product-cover-2.avif" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Paris</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 89,999 /-</span>
+                    <a
+                      href="./packages/international/paris.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/nepal.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Nepal</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs.19,999 /-</span>
+                    <a
+                      href="productPageNepal.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/Dubai.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Dubai</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 59,999 /-</span>
+                    <a
+                      href="productPageDubai.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/singapore.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Singapore</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 89,999 /-</span>
+                    <a
+                      href="productPageSingapore.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/thailand.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Thailand</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 69,999 /-</span>
+                    <a
+                      href="productPageThailand.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/switzerland.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Switzerland</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 199,999 /-</span>
+                    <a
+                      href="productPageSwitzerland.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -250,35 +712,266 @@
         </div>
         <div>
           <h1 class="text-center">Trending</h1>
-          <div class="owl-carousel container owl-theme">
-            <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
-              <img src="assets/img/paris-product-cover-2.avif" alt="" />
-              <div class="product-info p-2 mt-2">
-                <div class="d-flex justify-content-between">
-                  <h3 class="fs-5">Paris</h3>
-                  <div>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
+          <div class="container">
+            <div class="owl-carousel carousel-theme" id="product-carousel-2">
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/maldives.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Maldives</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
                   </div>
-                </div>
-                <div
-                  class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
-                >
-                  <div>
-                    <i class="fa-solid fa-cloud-moon"></i> 6 Days 5 Nights
-                  </div>
-                  <div><i class="fa-solid fa-user-tie"></i> Travel Guide</div>
-                </div>
-                <div
-                  class="d-flex justify-content-between mt-2 align-items-center"
-                >
-                  <span class="prod-card-price">Rs. 10,999 /-</span>
-                  <a href="#" class="btn btn-primary py-1 fs-6 small"
-                    >Book Now</a
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
                   >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 30,999 /-</span>
+                    <a
+                      href="productPageMaldives.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/paris-product-cover-2.avif" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Paris</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 89,999 /-</span>
+                    <a
+                      href="./packages/international/paris.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/nepal.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Nepal</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs.19,999 /-</span>
+                    <a
+                      href="productPageNepal.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/Dubai.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Dubai</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 59,999 /-</span>
+                    <a
+                      href="productPageDubai.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/singapore.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Singapore</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 89,999 /-</span>
+                    <a
+                      href="productPageSingapore.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/thailand.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Thailand</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 69,999 /-</span>
+                    <a
+                      href="productPageThailand.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/switzerland.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Switzerland</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 199,999 /-</span>
+                    <a
+                      href="productPageSwitzerland.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -286,35 +979,266 @@
         </div>
         <div>
           <h1 class="text-center">Weekend Deals</h1>
-          <div class="owl-carousel container owl-theme">
-            <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
-              <img src="assets/img/paris-product-cover-2.avif" alt="" />
-              <div class="product-info p-2 mt-2">
-                <div class="d-flex justify-content-between">
-                  <h3 class="fs-5">Paris</h3>
-                  <div>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
+          <div class="container">
+            <div class="owl-carousel carousel-theme" id="product-carousel-2">
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/maldives.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Maldives</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
                   </div>
-                </div>
-                <div
-                  class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
-                >
-                  <div>
-                    <i class="fa-solid fa-cloud-moon"></i> 6 Days 5 Nights
-                  </div>
-                  <div><i class="fa-solid fa-user-tie"></i> Travel Guide</div>
-                </div>
-                <div
-                  class="d-flex justify-content-between mt-2 align-items-center"
-                >
-                  <span class="prod-card-price">Rs. 10,999 /-</span>
-                  <a href="#" class="btn btn-primary py-1 fs-6 small"
-                    >Book Now</a
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
                   >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 30,999 /-</span>
+                    <a
+                      href="productPageMaldives.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/paris-product-cover-2.avif" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Paris</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 89,999 /-</span>
+                    <a
+                      href="./packages/international/paris.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/nepal.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Nepal</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs.19,999 /-</span>
+                    <a
+                      href="productPageNepal.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/Dubai.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Dubai</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 59,999 /-</span>
+                    <a
+                      href="productPageDubai.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/singapore.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Singapore</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 89,999 /-</span>
+                    <a
+                      href="productPageSingapore.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/thailand.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Thailand</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 69,999 /-</span>
+                    <a
+                      href="productPageThailand.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/switzerland.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Switzerland</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 199,999 /-</span>
+                    <a
+                      href="productPageSwitzerland.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -322,35 +1246,266 @@
         </div>
         <div>
           <h1 class="text-center">Resort Deals</h1>
-          <div class="owl-carousel container owl-theme">
-            <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
-              <img src="assets/img/paris-product-cover-2.avif" alt="" />
-              <div class="product-info p-2 mt-2">
-                <div class="d-flex justify-content-between">
-                  <h3 class="fs-5">Paris</h3>
-                  <div>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
+          <div class="container">
+            <div class="owl-carousel carousel-theme" id="product-carousel-2">
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/maldives.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Maldives</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
                   </div>
-                </div>
-                <div
-                  class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
-                >
-                  <div>
-                    <i class="fa-solid fa-cloud-moon"></i> 6 Days 5 Nights
-                  </div>
-                  <div><i class="fa-solid fa-user-tie"></i> Travel Guide</div>
-                </div>
-                <div
-                  class="d-flex justify-content-between mt-2 align-items-center"
-                >
-                  <span class="prod-card-price">Rs. 10,999 /-</span>
-                  <a href="#" class="btn btn-primary py-1 fs-6 small"
-                    >Book Now</a
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
                   >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 30,999 /-</span>
+                    <a
+                      href="productPageMaldives.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/paris-product-cover-2.avif" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Paris</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 89,999 /-</span>
+                    <a
+                      href="./packages/international/paris.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/nepal.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Nepal</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs.19,999 /-</span>
+                    <a
+                      href="productPageNepal.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/Dubai.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Dubai</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 59,999 /-</span>
+                    <a
+                      href="productPageDubai.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/singapore.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Singapore</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 89,999 /-</span>
+                    <a
+                      href="productPageSingapore.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/thailand.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Thailand</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 69,999 /-</span>
+                    <a
+                      href="productPageThailand.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+                <img src="assets/img/switzerland.jpg" alt="" />
+                <div class="product-info p-2 mt-2">
+                  <div class="d-flex justify-content-between">
+                    <h3 class="fs-5">Switzerland</h3>
+                    <div>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+                  >
+                    <div>
+                      <i class="fa-solid fa-cloud-moon"></i>
+                      6 Days 5 Nights
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-tie"></i>
+                      Travel Guide
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between mt-2 align-items-center"
+                  >
+                    <span class="prod-card-price">Rs. 199,999 /-</span>
+                    <a
+                      href="productPageSwitzerland.html"
+                      class="btn btn-primary py-1 fs-6 small"
+                      >Book Now</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -485,7 +1640,7 @@
           </div>
         </div>
       </section>
-      <section
+      <!-- <section
         class="container flex-column h-50 d-flex w-100 justify-content-center align-items-center"
       >
         <h1>FAQ</h1>
@@ -569,7 +1724,94 @@
             </div>
           </div>
         </div>
+      </section> -->
+      <section
+        class="container flex-column h-50 d-flex w-100 justify-content-center align-items-center"
+      >
+        <h1>Frequently Asked Questions (FAQ) - International Trip</h1>
+        <div class="accordion pt-3 w-100" id="accordionExample1">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                What does the international trip package include?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample1"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It
+                includes details about the international trip package, such as
+                accommodation, transportation, and other inclusions.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne-two">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-two"
+                aria-expanded="false"
+                aria-controls="collapseOne-two"
+              >
+                How can I customize my international trip package?
+              </button>
+            </h2>
+            <div
+              id="collapseOne-two"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne-two"
+              data-bs-parent="#accordionExample1"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It
+                provides information on how travelers can tailor their
+                international trip packages to meet their preferences and needs.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne-three">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-three"
+                aria-expanded="false"
+                aria-controls="collapseOne-three"
+              >
+                What documents do I need for international travel?
+              </button>
+            </h2>
+            <div
+              id="collapseOne-three"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne-three"
+              data-bs-parent="#accordionExample1"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It
+                outlines the essential documents required for international
+                travel, including passports, visas, and any additional
+                documentation.
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+
       <section class="ftco-section">
         <div class="container">
           <div class="row gap justify-content-center">
