@@ -5,6 +5,11 @@
   font-family: 'Satoshi', sans-serif;
 
 }
+.resort__grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
 
 #international__header {
   background-image: url("https://images.unsplash.com/photo-1595793965190-466d6b720c6f?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
@@ -411,6 +416,11 @@ footer :is(a, i) {
   background-color: rgba(0, 0, 0, 0.444);
 }
 @media (max-width:1024px) {
+  .resort__grid{
+   
+    grid-template-columns: repeat(2, 1fr);
+ 
+  }
   .grid__container{
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
@@ -553,6 +563,11 @@ footer :is(a, i) {
   gap: 20px;
 }
 @media (max-width: 786px) {
+  .resort__grid{
+   
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
   .owl-carousel .nav-btn{  
     font-size: 30px;
     top: 60px !important;

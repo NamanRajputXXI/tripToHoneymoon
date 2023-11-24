@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resorts</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="src/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="./src/bootstrap.bundle.min.js"></script>
+    <script defer src="assets/js/script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="icon"
+      href="./assets/img/icons8-tour-100.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pr-2 pb-3">
+      <div class="container d-flex justify-content-between">
+        <a href="../../index.html" class="navbar-brand" aria-label="logo">
+          <img
+            class="navbar-brand"
+            id="logo"
+            src="../../assets/img/logo.png"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#header_nav"
+          aria-controls="header_nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse flex-grow-0" id="header_nav">
+          <ul
+            class="navbar-nav d-flex flex-xs-column flex-lg-row w-100 justify-content-center align-items-center"
+          >
+            <li class="nav-item active">
+              <a class="nav-link" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../../domestic.html">Domestic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../international.html"
+                >International</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-decoration-none text-dark small" href="">
+                <button class="btn border border-dark">
+                  <i class="fa-solid fa-phone px-1"></i>1800-121-0140
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- header -->
+    <div class="full-img" id="fullImgBox">
+      <img src="./assets//img/kashmir-cat.jpg" id="fullImg" alt="" />
+      <span onclick="closeFullImg()">X</span>
+    </div>
+    <header>
+      <div class="grid">
+        <div class="item1">
+          <img
+            class="grid__image"
+            src="./assets/img/kashmir-cat.jpg"
+            alt=""
+            onclick="openFullImg(this.src)"
+          />
+        </div>
+        <div class="item2">
+          <img
+            class="grid__image"
+            src="./assets/img/Dubai.jpg"
+            onclick="openFullImg(this.src)"
+            alt=""
+          />
+        </div>
+        <div class="item3">
+          <img
+            class="grid__image"
+            src="./assets/img/singapore.jpg"
+            onclick="openFullImg(this.src)"
+            alt=""
+          />
+        </div>
+        <div class="item4">
+          <img
+            class="grid__image"
+            src="https://images.unsplash.com/photo-1620901646126-6987607092ae?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            onclick="openFullImg(this.src)"
+            alt=""
+          />
+        </div>
+        <div class="item5">
+          <img
+            class="grid__image"
+            src="./assets/img/kerala.jpg"
+            onclick="openFullImg(this.src)"
+            alt=""
+          />
+        </div>
+        <div class="item6">
+          <img
+            class="grid__image"
+            src="https://media.worldnomads.com/explore/nepal-landmarks/pashupatinath-hero.jpg"
+            onclick="openFullImg(this.src)"
+            alt=""
+          />
+        </div>
+        <div class="item7">
+          <img
+            class="grid__image"
+            src="./assets/img/darjeeling.jpg"
+            alt=""
+            onclick="openFullImg(this.src)"
+          />
+        </div>
+      </div>
+    </header>
+
+    <section class="container my-5">
+      <div class="d-flex align-items-center justify-content-between">
+        <h2><span class="text-primary">Related</span> Destination</h2>
+      </div>
+      <div class="resort__grid">
+        <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+          <img src="assets/img/kashmir-cat.jpg" alt="" />
+          <div class="product-info p-2 mt-2">
+            <div class="d-flex justify-content-between">
+              <h3 class="fs-5">Kashmir</h3>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+            <div
+              class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+            >
+              <div><i class="fa-solid fa-cloud-moon"></i> 6 Days 5 Nights</div>
+              <div><i class="fa-solid fa-user-tie"></i> Travel Guide</div>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <span class="prod-card-price">Rs. 19,999 /-</span>
+              <a
+                href="./productPageKashmir.html"
+                class="btn btn-primary py-1 fs-6 small"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+          <img
+            src="https://s01.sgp1.cdn.digitaloceanspaces.com/article/157373-zcpsrpnnec-1617976605.jpg"
+            alt=""
+          />
+          <div class="product-info p-2 mt-2">
+            <div class="d-flex justify-content-between">
+              <h3 class="fs-5">Andaman</h3>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+            <div
+              class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+            >
+              <div><i class="fa-solid fa-cloud-moon"></i> 6 Days 5 Nights</div>
+              <div><i class="fa-solid fa-user-tie"></i> Travel Guide</div>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <span class="prod-card-price">Rs. 19,999 /-</span>
+              <a
+                href="productPageAndaman.html"
+                class="btn btn-primary py-1 fs-6 small"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+          <img src="assets/img/goa.jpg" alt="" />
+          <div class="product-info p-2 mt-2">
+            <div class="d-flex justify-content-between">
+              <h3 class="fs-5">Goa</h3>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+            <div
+              class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+            >
+              <div>
+                <i class="fa-solid fa-cloud-moon"></i>
+                6 Days 5 Nights
+              </div>
+              <div>
+                <i class="fa-solid fa-user-tie"></i>
+                Travel Guide
+              </div>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <span class="prod-card-price">Rs. 29,999 /-</span>
+              <a
+                href="productPageGoa.html"
+                class="btn btn-primary py-1 fs-6 small"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+          <img src="assets/img/maldives.jpg" alt="" />
+          <div class="product-info p-2 mt-2">
+            <div class="d-flex justify-content-between">
+              <h3 class="fs-5">Maldives</h3>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+            <div
+              class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+            >
+              <div>
+                <i class="fa-solid fa-cloud-moon"></i>
+                6 Days 5 Nights
+              </div>
+              <div>
+                <i class="fa-solid fa-user-tie"></i>
+                Travel Guide
+              </div>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <span class="prod-card-price">Rs. 30,999 /-</span>
+              <a
+                href="productPageMaldives.html"
+                class="btn btn-primary py-1 fs-6 small"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+          <img src="assets/img/paris-product-cover-2.avif" alt="" />
+          <div class="product-info p-2 mt-2">
+            <div class="d-flex justify-content-between">
+              <h3 class="fs-5">Paris</h3>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+            <div
+              class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+            >
+              <div>
+                <i class="fa-solid fa-cloud-moon"></i>
+                6 Days 5 Nights
+              </div>
+              <div>
+                <i class="fa-solid fa-user-tie"></i>
+                Travel Guide
+              </div>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <span class="prod-card-price">Rs. 89,999 /-</span>
+              <a
+                href="./packages/international/paris.html"
+                class="btn btn-primary py-1 fs-6 small"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+          <img src="assets/img/nepal.jpg" alt="" />
+          <div class="product-info p-2 mt-2">
+            <div class="d-flex justify-content-between">
+              <h3 class="fs-5">Nepal</h3>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+            <div
+              class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+            >
+              <div>
+                <i class="fa-solid fa-cloud-moon"></i>
+                6 Days 5 Nights
+              </div>
+              <div>
+                <i class="fa-solid fa-user-tie"></i>
+                Travel Guide
+              </div>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <span class="prod-card-price">Rs.19,999 /-</span>
+              <a
+                href="productPageNepal.html"
+                class="btn btn-primary py-1 fs-6 small"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+          <img src="assets/img/kerala.jpg" alt="" />
+          <div class="product-info p-2 mt-2">
+            <div class="d-flex justify-content-between">
+              <h3 class="fs-5">Kerala</h3>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+            <div
+              class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+            >
+              <div>
+                <i class="fa-solid fa-cloud-moon"></i>
+                6 Days 5 Nights
+              </div>
+              <div>
+                <i class="fa-solid fa-user-tie"></i>
+                Travel Guide
+              </div>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <span class="prod-card-price">Rs. 39,999 /-</span>
+              <a
+                href="productPageKerala.html"
+                class="btn btn-primary py-1 fs-6 small"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+          <img src="assets/img/Dubai.jpg" alt="" />
+          <div class="product-info p-2 mt-2">
+            <div class="d-flex justify-content-between">
+              <h3 class="fs-5">Dubai</h3>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+            <div
+              class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+            >
+              <div>
+                <i class="fa-solid fa-cloud-moon"></i>
+                6 Days 5 Nights
+              </div>
+              <div>
+                <i class="fa-solid fa-user-tie"></i>
+                Travel Guide
+              </div>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <span class="prod-card-price">Rs. 59,999 /-</span>
+              <a
+                href="productPageDubai.html"
+                class="btn btn-primary py-1 fs-6 small"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+          <img src="assets/img/singapore.jpg" alt="" />
+          <div class="product-info p-2 mt-2">
+            <div class="d-flex justify-content-between">
+              <h3 class="fs-5">Singapore</h3>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+            <div
+              class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+            >
+              <div>
+                <i class="fa-solid fa-cloud-moon"></i>
+                6 Days 5 Nights
+              </div>
+              <div>
+                <i class="fa-solid fa-user-tie"></i>
+                Travel Guide
+              </div>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <span class="prod-card-price">Rs. 89,999 /-</span>
+              <a
+                href="productPageSingapore.html"
+                class="btn btn-primary py-1 fs-6 small"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+          <img src="assets/img/thailand.jpg" alt="" />
+          <div class="product-info p-2 mt-2">
+            <div class="d-flex justify-content-between">
+              <h3 class="fs-5">Thailand</h3>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+            <div
+              class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+            >
+              <div>
+                <i class="fa-solid fa-cloud-moon"></i>
+                6 Days 5 Nights
+              </div>
+              <div>
+                <i class="fa-solid fa-user-tie"></i>
+                Travel Guide
+              </div>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <span class="prod-card-price">Rs. 69,999 /-</span>
+              <a
+                href="productPageThailand.html"
+                class="btn btn-primary py-1 fs-6 small"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="product shadow-sm rounded-3 overflow-x-hidden my-5">
+          <img src="assets/img/switzerland.jpg" alt="" />
+          <div class="product-info p-2 mt-2">
+            <div class="d-flex justify-content-between">
+              <h3 class="fs-5">Switzerland</h3>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+            </div>
+            <div
+              class="prod-card-info fs-6 text-small border-top border-bottom py-1 d-flex justify-content-between"
+            >
+              <div>
+                <i class="fa-solid fa-cloud-moon"></i>
+                6 Days 5 Nights
+              </div>
+              <div>
+                <i class="fa-solid fa-user-tie"></i>
+                Travel Guide
+              </div>
+            </div>
+            <div class="d-flex justify-content-between mt-2 align-items-center">
+              <span class="prod-card-price">Rs. 199,999 /-</span>
+              <a
+                href="productPageSwitzerland.html"
+                class="btn btn-primary py-1 fs-6 small"
+                >Book Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 class="text-center">Testimonials</h1>
+      <div class="carousel-wrap py-5">
+        <div class="owl-carousel container owl-theme">
+          <div
+            class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+          >
+            <p>
+              "Responsive, committed, and highly professional approach to every
+              task."
+            </p>
+            <div class="d-flex w-100 align-items-center">
+              <img
+                class="rounded-circle fit-cover"
+                style="width: 75px; height: 75px"
+                src="assets/img/placeholder__image.png"
+                alt=""
+              />
+              <div
+                class="text-left justify-content-start d-flex px-3 flex-column"
+              >
+                <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                  Vikas
+                </p>
+                <p class="text-muted text-left mb-0 w-25">CEO</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+          >
+            <p>
+              "Highly recommended! Their expertise in the field is outstanding."
+            </p>
+            <div class="d-flex w-100 align-items-center">
+              <img
+                class="rounded-circle fit-cover"
+                style="width: 75px; height: 75px"
+                src="assets/img/placeholder__image.png"
+                alt=""
+              />
+              <div
+                class="text-left justify-content-start d-flex px-3 flex-column"
+              >
+                <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                  Minal
+                </p>
+                <p class="text-muted text-left mb-0">Company Owner</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+          >
+            <p>
+              "Efficient, reliable, and understanding of our project needs."
+            </p>
+            <div class="d-flex w-100 align-items-center">
+              <img
+                class="rounded-circle fit-cover"
+                style="width: 75px; height: 75px"
+                src="assets/img/placeholder__image.png"
+                alt=""
+              />
+              <div
+                class="text-left justify-content-start d-flex px-3 flex-column"
+              >
+                <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                  Prerna
+                </p>
+                <p class="text-muted text-left mb-0 w-25">Architect</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+          >
+            <p>"Consistently went the extra mile to ensure project success."</p>
+            <div class="d-flex w-100 align-items-center gap-2">
+              <img
+                class="rounded-circle fit-cover"
+                style="width: 75px; height: 75px"
+                src="assets/img/placeholder__image.png"
+                alt=""
+              />
+              <div
+                class="text-left justify-content-start d-flex px-3 flex-column"
+              >
+                <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                  Mukul
+                </p>
+                <p class="text-muted text-left mb-0">Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+          >
+            <p>
+              "Responsive, committed, and highly professional approach to every
+              task."
+            </p>
+            <div class="d-flex w-100 align-items-center">
+              <img
+                class="rounded-circle fit-cover"
+                style="width: 75px; height: 75px"
+                src="assets/img/placeholder__image.png"
+                alt=""
+              />
+              <div
+                class="text-left justify-content-start d-flex px-3 flex-column"
+              >
+                <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                  Mahesh
+                </p>
+                <p class="text-muted text-left mb-0 w-25">Doctor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-light py-5 text-dark">
+      <div class="container">
+        <div class="row gap-5 border-bottom border-dark-subtle py-5">
+          <div class="col-lg-4 col-12">
+            <img src="assets/img/logo.png" id="footer-brand" />
+            <p class="my-3">
+              Embark on a journey of love with our exquisite honeymoon packages.
+              We specialize in creating unforgettable moments in the most
+              romantic destinations. Explore enchanting landscapes, enjoy
+              luxurious accommodations, and celebrate the beginning of your new
+              chapter with us. Let your honeymoon be a seamless blend of romance
+              and adventure.
+            </p>
+          </div>
+          <div class="col-2">
+            <h3 class="fs-4">Policy</h3>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none">Privacy</a></li>
+              <li><a href="#" class="text-decoration-none">Terms of Use</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-4">
+            <h3 class="fs-4">Support</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="contact.html" class="text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="about.html" class="text-decoration-none">About Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-3">
+            <h3 class="fs-4">Quick Links</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="productPageKerala.html" class="text-decoration-none"
+                  >Honeymoon in Kerala</a
+                >
+              </li>
+              <li>
+                <a href="productPageNepal.html" class="text-decoration-none"
+                  >Honeymoon in Nepal</a
+                >
+              </li>
+              <li>
+                <a href="productPageAndaman.html" class="text-decoration-none"
+                  >Honeymoon in Andaman</a
+                >
+              </li>
+              <li>
+                <a href="productPageKashmir.html" class="text-decoration-none"
+                  >Honeymoon in Kashmir</a
+                >
+              </li>
+              <li>
+                <a href="productPageThailand.html" class="text-decoration-none"
+                  >Honeymoon in Thailand</a
+                >
+              </li>
+              <li>
+                <a href="productPageDubai.html" class="text-decoration-none"
+                  >Honeymoon in Dubai</a
+                >
+              </li>
+              <li>
+                <a href="productPageMaldives.html" class="text-decoration-none"
+                  >Honeymoon in Maldives</a
+                >
+              </li>
+              <li>
+                <a href="productPageSingapore.html" class="text-decoration-none"
+                  >Honeymoon in Singapore</a
+                >
+              </li>
+              <li>
+                <a
+                  href="productPageSwitzerland.html"
+                  class="text-decoration-none"
+                  >Honeymoon in Switzerland</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-content-center my-5">
+          <div>&copy; TriptoHoneymoon 2023. All Rights Reserved.</div>
+          <div>
+            Follow Us On:
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-instagram"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-facebook"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      var fullImgBox = document.getElementById("fullImgBox");
+      var fullImg = document.getElementById("fullImg");
+      function openFullImg(pic) {
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+      }
+      function closeFullImg() {
+        fullImgBox.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
