@@ -53,6 +53,7 @@ $("#product-carousel-2").owlCarousel({
   },
 });
 
+
 $(".owl-carousel").owlCarousel({
   loop: true,
   margin: 10,
