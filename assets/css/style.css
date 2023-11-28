@@ -5,6 +5,13 @@
   font-family: 'Satoshi', sans-serif;
 
 }
+footer{
+  background-image: url("../img/footer-bg-img.jpg");
+  background-size: cover;
+  width: 100%;
+  
+  height: fit-content;
+}
 .resort__grid{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
