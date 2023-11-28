@@ -9,8 +9,34 @@ footer{
   background-image: url("../img/footer-bg-img.jpg");
   background-size: cover;
   width: 100%;
-  
+  gap: 20px;
   height: fit-content;
+}
+.start__trip--section{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  
+  align-items: center;
+  height: 600px;
+}
+.groupImg__section{
+  background-image: url("../img/group-photo.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* align-items: flex-end; */
+  
+  justify-content: flex-end;
+}
+.groupImg__section p{
+  font-size: 20px;
+}
+.start__trip--section img{
+  border-radius: 30px;
 }
 .resort__grid{
   display: grid;
@@ -426,6 +452,16 @@ footer :is(a, i) {
   background-color: rgba(0, 0, 0, 0.444);
 }
 @media (max-width:1024px) {
+  .start__trip--section{
+   
+    justify-content: center;
+    flex-direction: column-reverse;
+    
+    align-items: center;
+    height: fit-content;
+    gap: 50px;
+  }
+
   .resort__grid{
    
     grid-template-columns: repeat(2, 1fr);
