@@ -568,6 +568,11 @@ footer :is(a, i) {
   background-color: rgba(0, 0, 0, 0.444);
 }
 @media (max-width:1024px) {
+  .blog__grid--layout{
+    
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
   .start__trip--section{
    
     justify-content: center;
@@ -725,6 +730,11 @@ footer :is(a, i) {
   gap: 20px;
 }
 @media (max-width: 786px) {
+  .blog__grid--layout{
+  
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
   .resort__grid{
    
     grid-template-columns: repeat(1, 1fr);

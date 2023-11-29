@@ -182,27 +182,27 @@
     </header>
 
     <main class="py-5 my-5">
-    <section class="blog__grid--layout container">
+    <section class="blog__grid--layout container p-5 ">
        
-        <div class="blog__card card  ">
+        <div class="blog__card   ">
             <div class="blog__img">
-                <img src="./assets/img/goa.jpg" class="img-fluid" alt="">
+                <img src="./assets/img/goa.jpg" class="img-fluid"  alt="">
             </div>
             <div class="text  d-flex p-3 flex-column gap-2  justify-content-center">
-                <h1>Black Friday’s Back Baby!</h1>
+                <h5>Black Friday’s Back Baby!</h5>
                 <p>Discover jaw-dropping travel deals and dream vacations on Black Fri...</p>
                 <button class=" w-50 btn btn-primary">
                     View Details 
                 </button>
             </div>
         </div>
-        <div class="blog__card card ">
+        <div class="blog__card  ">
             <div class="blog__img">
                 <img src="./assets/img/goa.jpg" class="img-fluid"  alt="">
             </div>
             <div class="text  d-flex p-3 flex-column gap-2  justify-content-center">
-                <h1>New ships. New islands.
-                </h1>
+                <h5>New ships. New islands.
+                </h5>
                 <p>Discover paradise at Perfect Day at CocoCay, Royal Caribbean's excl...
 
                 </p>
@@ -211,49 +211,49 @@
                 </button>
             </div>
         </div>
-        <div class="blog__card card ">
+        <div class="blog__card  ">
             <div class="blog__img">
                 <img src="./assets/img/goa.jpg" class="img-fluid"  alt="">
             </div>
             <div class="text  d-flex p-3 flex-column gap-2  justify-content-center">
-                <h1>You're Allowed to be Lazy</h1>
+                <h5>You're Allowed to be Lazy</h5>
                 <p>Escape to all-inclusive luxury on our adult-only cruises. Indulge i...</p>
                 <button class=" w-50 btn btn-primary">
                     View Details 
                 </button>
             </div>
         </div>
-        <div class="blog__card card ">
+        <div class="blog__card ">
             <div class="blog__img">
                 <img src="./assets/img/goa.jpg" class="img-fluid"  alt="">
             </div>
             <div class="text  d-flex p-3 flex-column gap-2  justify-content-center">
-                <h1>10 Best National Parks 
-                </h1>
+                <h5>10 Best National Parks 
+                </h5>
                 <p>Discover the best national parks for wildlife spotting in North Ame...</p>
                 <button class=" w-50 btn btn-primary">
                     View Details 
                 </button>
             </div>
         </div>
-        <div class="blog__card card ">
+        <div class="blog__card  ">
             <div class="blog__img">
                 <img src="./assets/img/goa.jpg" class="img-fluid"  alt="">
             </div>
             <div class="text  d-flex p-3 flex-column gap-2  justify-content-center">
-                <h1>UNESCO Lists Czech Hop</h1>
+                <h5>UNESCO Lists Czech Hop</h5>
                 <p>The Czech Republic is already a bucket-list destination for beer lo...</p>
                 <button class=" w-50 btn btn-primary">
                     View Details 
                 </button>
             </div>
         </div>
-        <div class="blog__card card ">
+        <div class="blog__card  ">
             <div class="blog__img">
                 <img src="./assets/img/goa.jpg" class="img-fluid"  alt="">
             </div>
             <div class="text  d-flex p-3 flex-column gap-2  justify-content-center">
-                <h1>The Biggest W Hotel in the World</h1>
+                <h5>The Biggest W Hotel in the World</h5>
                 <p>They like to make a splash Down Under. So it’s no surprise the long...<p>
                 <button class=" w-50 btn btn-primary">
                     View Details 
@@ -541,5 +541,16 @@
         </div>
       </div>
     </footer>
+    <script>
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+        function openFullImg(pic) {
+          fullImgBox.style.display = "flex";
+          fullImg.src = pic;
+        }
+        function closeFullImg() {
+          fullImgBox.style.display = "none";
+        }
+      </script>
   </body>
 </html>
