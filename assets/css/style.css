@@ -4,6 +4,10 @@
   
   font-family: 'Satoshi', sans-serif;
 }
+.package{
+  width: 350px;
+  height: fit-content;
+}
 footer{
   background-image: url("../img/footer-bg-img.jpg");
   background-size: cover;
@@ -731,7 +735,6 @@ footer :is(a, i) {
 }
 @media (max-width: 786px) {
   .blog__grid--layout{
-  
     grid-template-columns: repeat(1, 1fr);
     
   }
