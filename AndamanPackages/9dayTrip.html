@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Package - Andaman</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="../src/main.css" />
+    <script src="../src/bootstrap.bundle.min.js"></script>
+
+    <script defer src="../assets/js/script.js "></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="icon"
+      href="../assets/img/icons8-tour-100.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light pr-2 pb-3">
+        <div class="container d-flex justify-content-between">
+          <a href="./index.html" class="navbar-brand" aria-label="logo">
+            <img
+              class="navbar-brand"
+              id="logo"
+              src="../assets/img/logo.png"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#header_nav"
+            aria-controls="header_nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse flex-grow-0" id="header_nav">
+            <ul
+              class="navbar-nav d-flex flex-xs-column flex-lg-row w-100 justify-content-center align-items-center"
+            >
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../domestic.html">Domestic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../international.html"
+                  >International</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../blog.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-decoration-none text-dark small" href="">
+                  <button class="btn btn-outline-dark">
+                    <i class="fa-solid fa-phone px-1"></i>1800-121-0140
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="full-img" id="fullImgBox">
+        <img src="./assets//img/kashmir-cat.jpg" id="fullImg" alt="" />
+        <span onclick="closeFullImg()">X</span>
+      </div>
+      <div class="grid">
+        <div class="item1">
+          <img
+            class="grid__image"
+            src="https://images.unsplash.com/photo-1631364377744-2d0a1e5c40cf?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFuZGFtYW4lMjBhbmQlMjBuaWNvYmFyJTIwaXNsYW5kcyUyMGluZGlhfGVufDB8fDB8fHww"
+            alt=""
+            onclick="openFullImg(this.src)"
+          />
+        </div>
+        <div class="item2">
+          <img
+            class="grid__image"
+            src="https://www.tripsavvy.com/thmb/AAOHzfLOmPQpTGh9hbBmUe2pgyY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-500286517-42e99117fa2240b5b854b93e1c9529d6.jpg"
+            onclick="openFullImg(this.src)"
+            alt=""
+          />
+        </div>
+        <div class="item3 newItem-3">
+          <img
+            class="grid__image"
+            src="https://www.andamanworldtravels.com/images-new/places-1/beaches-in-andaman-island.webp"
+            onclick="openFullImg(this.src)"
+            alt=""
+          />
+        </div>
+        <div class="item4">
+          <img
+            class="grid__image"
+            src="https://nomadicweekends.com/blog/wp-content/uploads/2019/12/andaman-island.jpg"
+            onclick="openFullImg(this.src)"
+            alt=""
+          />
+        </div>
+        <div class="item5">
+          <img
+            class="grid__image"
+            src="https://www.roverholidays.com/blog/wp-content/uploads/2019/12/Andaman.png"
+            onclick="openFullImg(this.src)"
+            alt=""
+          />
+        </div>
+        <div class="item6">
+          <img
+            class="grid__image"
+            src="https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/09/1-1-1280x720.webp"
+            onclick="openFullImg(this.src)"
+            alt=""
+          />
+        </div>
+        <div class="item7">
+          <img
+            class="grid__image"
+            src="https://ihpl.b-cdn.net/pictures/tourintro/andaman-island-honeymoon-tour-40.jpeg"
+            alt=""
+            onclick="openFullImg(this.src)"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main class="py-5">
+      <section class="container py-5">
+        <div class="d-flex flex-column gap-5">
+          <img
+            src="https://images.unsplash.com/photo-1631364377744-2d0a1e5c40cf?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFuZGFtYW4lMjBhbmQlMjBuaWNvYmFyJTIwaXNsYW5kcyUyMGluZGlhfGVufDB8fDB8fHww"
+            height="500px"
+            width="100%"
+            alt=""
+          />
+          <h1 class="my-5 fw-bold text-center">9 Days Trip in Andaman - Details</h1>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="9daysPlan-day1-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne-9days"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 1 - Andamans welcomes you at Port Blair
+                </button>
+              </h2>
+              <div
+                id="collapseOne-9days"
+                class="accordion-collapse collapse show"
+                aria-labelledby="9daysPlan-day1-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Welcome and received by Andaman Tourism contact personnel.
+                  Drop and check in to the hotel of your choice at Port Bair.
+                  After a brief session of getting fresh and lunch proceed to
+                  the most significant attraction of Port Blair. Cellular Jail
+                  Light &amp; Sound show is famous for depicting the glorious
+                  history of the India. The show is presented every day evening
+                  at around 5.30 p.m. Tickets are available at the venue from
+                  the reception counter of Director of Tourism.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="9daysPlan-day2-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo-9days"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 2 - Excursion to Ross / Coral/North Bay &amp; Viper Island
+                  Excursion
+                </button>
+              </h2>
+              <div
+                id="collapseTwo-9days"
+                class="accordion-collapse collapse "
+                aria-labelledby="9daysPlan-day2-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  After a quick breakfast at the hotel or maybe a packed
+                  breakfast get dropped at the Phoenix Bay Jetty for hopping on
+                  to a boat cruising to a short-distance located Ross Island.
+                  The guide gives a brief on all the destinations in the course
+                  of island hopping of the day trip. Ross Island is a mere
+                  20-minute ferry ride from Port Blair. Ross Island is an island
+                  of preserved heritage. It is a small island picturesque and
+                  spectacular. As you go round the island amidst the ruins and
+                  war remnants, be a silent spectator to the British ways of
+                  life in the pre-independence era. Spend a day of bliss among
+                  the shady cove and the rolling and crashing waves, the deer,
+                  squirrels, rabbits and peacocks. The colonial ruins and the
+                  ancient trees are a pure bliss to the soul. After enjoying
+                  thoroughly the serenity of Ross Island, proceed towards North
+                  Bay Island that takes another 30 minutes to reach. The Coral
+                  or the North Bay Island is popular with the sports enthusiasts
+                  and the adventure lovers for the high-speed boating, the
+                  glass-bottom boating, the Dolphin boat cruise and the deep sea
+                  adventures. No tourists will return bored from the island
+                  combing. From the North Bay Island, proceed towards the last
+                  destination of the day, the Viper Island. Viper Island is an
+                  interesting place with enchanting tourist attractions in the
+                  form of buildings of historical importance, the gallows where
+                  the women inmates and harbour convicts were executed and the
+                  lovely greenery surrounding the whole island. It is a day-out
+                  location spot and can be reached by ferries. The island has
+                  been a mute witness to many acts of bravery and sacrifices
+                  during the freedom struggle of India. Sunset view is wondrous
+                  in this island. After an island excursion, return to Port
+                  Blair and back to the hotel for night stay.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="9daysPlan-day3-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree-9days"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 3 - Port Blair to Neil Island
+                </button>
+              </h2>
+              <div
+                id="collapseThree-9days"
+                class="accordion-collapse collapse "
+                aria-labelledby="9daysPlan-day3-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Welcome and received by Andaman Tourism contact personnel.
+                  Drop and check in to the hotel of your choice at Port Bair.
+                  After a brief session of getting fresh and lunch proceed to
+                  the most significant attraction of Port Blair. Cellular Jail
+                  Light &amp; Sound show is famous for depicting the glorious
+                  history of the India. The show is presented every day evening
+                  at around 5.30 p.m. Tickets are available at the venue from
+                  the reception counter of Director of Tourism.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="9daysPlan-day4-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour-9days"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 4 - Neil Island excursion.
+                </button>
+              </h2>
+              <div
+                id="collapseFour-9days"
+                class="accordion-collapse collapse "
+                aria-labelledby="9daysPlan-day4-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Start the day with a visit to the beautiful natural rock
+                  formation on a rocky beach that can be approached only when
+                  the water is low tide. Howrah Bridge attracts a lot of
+                  tourist. The approach way is among rocks and is somewhat rough
+                  and slippery. You can spot some rare species of starfish,
+                  corals, snakes, sea cucumbers and a lot many other interesting
+                  creatures creeping and crawling among the rocks. Later on
+                  visit the very beautiful crystal clear sparkling Bharatpur
+                  Beach. Take a cool dip, laze on the beach or splash among the
+                  waves and enjoy the warm waters. In the second half, visit the
+                  powdery white and sandy Laxmanpur Beach that fascinates one
+                  and all. Watch the glorious sunset on the rough waters of the
+                  beach. Stay at the Neil Island overnight in the hotel of your
+                  choice to get back to Port Blair next day.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="9daysPlan-day5-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive-9days"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 5 - Neil Island to Havelock Island
+                </button>
+              </h2>
+              <div
+                id="collapseFive-9days"
+                class="accordion-collapse collapse "
+                aria-labelledby="9daysPlan-day5-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Start the day with a pleasant and sumptuous breakfast and
+                  proceed to the Neil Island Jetty to catch the ferry to the
+                  Splendid Havelock Island. Spend the day at leisure. Wander
+                  about in the property, relax or reach the nearest beach to
+                  view the unending beauty of the blue Andaman Sea. Stay
+                  overnight at Havelock in the hotel of your choice.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="9daysPlan-day6-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix-9days"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 6 - Elephanta Beach with 1 session of Snorkelling
+                </button>
+              </h2>
+              <div
+                id="collapseSix-9days"
+                class="accordion-collapse collapse "
+                aria-labelledby="9daysPlan-day6-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  After breakfast, proceed towards the Elephanta Beach, which is
+                  famous for scuba diving and snorkelling. Take a splendid
+                  session of the underwater kingdom excursion under the
+                  supervision of expert divers. If you are not the adventurous
+                  type or if you suffer from any of the health conditions that
+                  does not allow you to go for scuba or snorkelling, avail the
+                  glass-bottom boat ride. The waters in Elephanta Beach are
+                  remarkably transparent offering the best views of the corals
+                  underneath. Also, the marine ecosystem here is full of life.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="9daysPlan-day7-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven-9days"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 7 - Excursion to Kalapathar &amp; Radha Nagar beach
+                  excursion
+                </button>
+              </h2>
+              <div
+                id="collapseSeven-9days"
+                class="accordion-collapse collapse "
+                aria-labelledby="9daysPlan-day7-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  After an early breakfast, drive to Kalapatthar Beach. This
+                  beach derives its name from the submerged black rocks (kala
+                  means black and patthar is rocks). Thus apart from enjoying
+                  the serene and glorified sea beauty you can’t indulge in much
+                  swimming or other activities in this beach. The drive to the
+                  beach is extremely picturesque. Enjoy the tropical fragrance
+                  in the air. It is a secluded beach where you can spend some
+                  exclusive moments with your loved ones. In the second half,
+                  proceed towards the very famous Radhanagar Beach for a grand
+                  feast to the eyes. It is one of the best beaches of the world.
+                  Its beauty and serenity is unmatched and plan to spend some
+                  quality time with your family and friends on this beach. You
+                  can laze around in the beach, build sandcastles, watch the
+                  tiny wriggling molluscs and feel the starfishes that get
+                  trapped at times in between the rocks while getting washed
+                  onto the beach. After a lazy and sea-beauty mingled day return
+                  to the hotel in Havelock to spend the night.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="9daysPlan-day8-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight-9days"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 8 - Vijaynagar beach excursions/Havelock to Port Blair
+                </button>
+              </h2>
+              <div
+                id="collapseEight-9days"
+                class="accordion-collapse collapse "
+                aria-labelledby="9daysPlan-day8-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Today, after having a relaxing breakfast in the hotel, proceed
+                  on to Vijayanagar Beach. This beach is perfect to rush for a
+                  cool swim and witness the aquatic life from close quarters.
+                  You can take part in the adventurous water sports activities.
+                  This beach is a perfect answer to the travellers’ quest for
+                  unlimited solace and nature’s exquisiteness. Vijaynagar Beach
+                  has matchless beauty. The blue sunny sky mixes with the
+                  equally beautiful sea surface making the beach highly
+                  impressive. The unsurpassed tranquillity and beauty of this
+                  beach make it a must destination to enjoy beach vacation far
+                  away from the mundane and busy city life. With captivating
+                  beach memories, you shall board the catamaran to return to
+                  Port Blair from a Havelock tour whose memories remain hard to
+                  forget lifelong. Overnight stay will be in Port Blair to be
+                  able to catch the fight back the next day comfortably.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="9daysPlan-day9-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseNine-9days"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 9 - 9 Departure from Port Blair
+                </button>
+              </h2>
+              <div
+                id="collapseNine-9days"
+                class="accordion-collapse collapse "
+                aria-labelledby="9daysPlan-day9-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  After breakfast, departure from Port Blair Veer Savarkar
+                  Airport with fond memories of this serene island group to
+                  cherish for lifetime.
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <h1 class="mt-5  fw-bold ">Inclusions</h1>
+          <div class="inclusions__list">
+            <ul class="d-flex flex-column gap-3" style="font-size: 20px;">
+              <li>03 nights stay on twin sharing basis at Port Blair</li>
+              <li>02 nights stay on twin sharing basis at Havelock</li>
+              <li>Breakfast on all days</li>
+              <li>Greeting and assistance on arrival at Port Blair Airport by a AndamanTourism representative</li>
+              <li>Sightseeing in Non-AC vehicle as per the itinerary</li>
+              <li>All pickups and drops from airport and ferry jetties</li>
+              <li>Entry tickets to all sightseeing places mentioned in the itinerary</li>
+              <li>All ferry transfers by private ferry</li>
+              <li>Includes all taxes</li>
+            </ul>
+            <h1 class="mt-5 fw-bold">Exclusions</h1>
+            <div class="inclusions__list">
+              <ul class="d-flex flex-column gap-3" style="font-size: 20px;">
+                <li>Car on disposal</li>
+                <li>Availability of vehicle on leisure days</li>
+                <li>Guide charges and camera fees</li>
+                <li>Tips, insurance, laundry charges, phone calls</li>
+                <li>Room mini bar services</li>
+                <li>Anything that is not mentioned under ‘Inclusions’ section</li>
+              </ul>
+            </div>
+            
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="ftco-section my-5">
+        <div class="container">
+          <div class="row gap justify-content-center">
+            <div class="col-md-6 text-center mb-5">
+              <h2 class="heading-section">Contact Form</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="wrapper">
+                <div class="row no-gutters bg-light">
+                  <div
+                    class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch"
+                  >
+                    <div class="contact-wrap w-100 p-md-5 p-4">
+                      <h3 class="mb-4">Get in touch</h3>
+
+                      <form
+                        method="POST"
+                        id="contactForm"
+                        name="contactForm"
+                        class="contactForm"
+                      >
+                        <div class="row">
+                          <div class="col-md-6 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="name"
+                                >Full Name</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="name"
+                                id="name"
+                                placeholder="Name"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-6 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="email"
+                                >Email Address</label
+                              >
+                              <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                id="email"
+                                placeholder="Email"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="subject"
+                                >Subject</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="subject"
+                                id="subject"
+                                placeholder="Subject"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="#">Message</label>
+                              <textarea
+                                name="message"
+                                class="form-control"
+                                id="message"
+                                cols="30"
+                                rows="4"
+                                placeholder="Message"
+                              ></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input
+                                type="submit"
+                                value="Send Message"
+                                class="btn btn-primary"
+                              />
+                              <div class="submitting"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-4 text-light col-md-5 d-flex align-items-stretch"
+                  >
+                    <div class="info-wrap bg-primary w-110 p-md-5 p-3">
+                      <h3>Let's get in touch</h3>
+                      <p class="mb-4">
+                        We're open for any suggestion or just to have a chat
+                      </p>
+                      <div
+                        class="dbox w-100 d-flex justify-content-center align-items-center gap-3"
+                      >
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <i class="fa-solid fa-location-pin"></i>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Address:</span> 34,Sewak park(1st floor),
+                            Dwarka more metro,Near metro piller no-772 New
+                            Delhi-110059.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 d-flex align-items-start gap-3">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-phone"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Phone:</span>
+                            <a
+                              class="text-decoration-none text-light"
+                              href="tel://1234567920"
+                              >+18001210140</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 gap-3 d-flex align-items-center">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-paper-plane"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Email:</span>
+                            <a
+                              class="text-decoration-none text-light"
+                              href="mailto:info@yoursite.com"
+                              >info@admireholidays.com
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 gap-3 d-flex align-items-center">
+                        <div
+                          class="icon d-flex justify-content-center align-items-center"
+                        >
+                          <span class="fa fa-globe"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Website</span>
+                            <a class="text-decoration-none text-light" href="#"
+                              >https://triptohoneymoon.com/</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-light text-white py-5 text-dark">
+      <div class="container">
+        <div class="row gap-5 border-bottom border-dark-subtle py-5">
+          <div class="col-lg-4 col-12">
+            <img src="assets/img/logo.png" id="footer-brand" />
+            <p class="my-3">
+              Embark on a journey of love with our exquisite honeymoon packages.
+              We specialize in creating unforgettable moments in the most
+              romantic destinations. Explore enchanting landscapes, enjoy
+              luxurious accommodations, and celebrate the beginning of your new
+              chapter with us. Let your honeymoon be a seamless blend of romance
+              and adventure.
+            </p>
+          </div>
+          <div class="col-2">
+            <h3 class="fs-4">Policy</h3>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none">Privacy</a></li>
+              <li><a href="#" class="text-decoration-none">Terms of Use</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-4">
+            <h3 class="fs-4">Support</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="contact.html" class="text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="about.html" class="text-decoration-none">About Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-3">
+            <h3 class="fs-4">Quick Links</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="productPageKerala.html" class="text-decoration-none"
+                  >Honeymoon in Kerala</a
+                >
+              </li>
+              <li>
+                <a href="productPageNepal.html" class="text-decoration-none"
+                  >Honeymoon in Nepal</a
+                >
+              </li>
+              <li>
+                <a href="productPageAndaman.html" class="text-decoration-none"
+                  >Honeymoon in Andaman</a
+                >
+              </li>
+              <li>
+                <a href="productPageKashmir.html" class="text-decoration-none"
+                  >Honeymoon in Kashmir</a
+                >
+              </li>
+              <li>
+                <a href="productPageThailand.html" class="text-decoration-none"
+                  >Honeymoon in Thailand</a
+                >
+              </li>
+              <li>
+                <a href="productPageDubai.html" class="text-decoration-none"
+                  >Honeymoon in Dubai</a
+                >
+              </li>
+              <li>
+                <a href="productPageMaldives.html" class="text-decoration-none"
+                  >Honeymoon in Maldives</a
+                >
+              </li>
+              <li>
+                <a href="productPageSingapore.html" class="text-decoration-none"
+                  >Honeymoon in Singapore</a
+                >
+              </li>
+              <li>
+                <a
+                  href="productPageSwitzerland.html"
+                  class="text-decoration-none"
+                  >Honeymoon in Switzerland</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-content-center my-5">
+          <div>&copy; TriptoHoneymoon 2023. All Rights Reserved.</div>
+          <div>
+            Follow Us On:
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-instagram"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-facebook"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      var fullImgBox = document.getElementById("fullImgBox");
+      var fullImg = document.getElementById("fullImg");
+      function openFullImg(pic) {
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+      }
+      function closeFullImg() {
+        fullImgBox.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
