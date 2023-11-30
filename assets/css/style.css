@@ -337,6 +337,14 @@ footer{
   position: relative;
   min-height: min(100vh, 600px);
 }
+.inclusion__exclusion{
+  display: flex;
+  
+
+}
+.inclusion__exclusion ul{
+  font-size: 20px;
+}
 
 .destination__decider{
   background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* Gradient from black to transparent, top to bottom */
@@ -536,6 +544,14 @@ footer :is(a, i) {
   background-color: rgba(0, 0, 0, 0.444);
 }
 @media (max-width:1024px) {
+  .inclusion__exclusion{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inclusion__exclusion ul{
+    font-size: 16px;
+  }
   .blog__grid--layout{
     
     grid-template-columns: repeat(2, 1fr);
