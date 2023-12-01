@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Package - Puttaparthi</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="../src/main.css" />
+    <script src="../src/bootstrap.bundle.min.js"></script>
+
+    <script defer src="../assets/js/script.js "></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="icon"
+      href="../assets/img/icons8-tour-100.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light pr-2 pb-3">
+        <div class="container d-flex justify-content-between">
+          <a href="./index.html" class="navbar-brand" aria-label="logo">
+            <img
+              class="navbar-brand"
+              id="logo"
+              src="../assets/img/logo.png"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#header_nav"
+            aria-controls="header_nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse flex-grow-0" id="header_nav">
+            <ul
+              class="navbar-nav d-flex flex-xs-column flex-lg-row w-100 justify-content-center align-items-center"
+            >
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../domestic.html">Domestic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../international.html"
+                  >International</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../blog.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-decoration-none text-dark small" href="">
+                  <button class="btn btn-outline-dark">
+                    <i class="fa-solid fa-phone px-1"></i>1800-121-0140
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid py-5" id="header-atf">
+        <div class="py-5 px-3 row">
+          <div
+            class="col-md-8 destination__decider text-white mb-5 p-3 d-flex align-items-center rounded-3 mx-auto flex-wrap"
+            style="border: 1px solid rgb(172, 172, 172)"
+          >
+            <div
+              class="ps-3 pe-4 text-center d-flex flex-column align-items-start"
+            >
+              <span class="">Find Your</span>
+              <!-- <br /> -->
+              <span class="">Holiday</span>
+            </div>
+            <div
+              class="d-flex flex-wrap flex-md-nowrap flex-grow-1 justify-content-center align-items-center ms-2 px-2"
+            >
+              <span class="small">To</span>
+              <input
+                type="text"
+                aria-label="enter location"
+                class="ms-3 py-1 px-3 flex-grow-1 d-inline-flex w-100"
+              />
+              <i
+                class="fa-solid fa-earth-asia bg-danger text-white py-2 px-2"
+              ></i>
+            </div>
+            <div
+              class="d-flex flex-wrap flex-md-nowrap flex-grow-1 justify-content-center align-items-center px-2"
+            >
+              <span class="small">When</span>
+              <input
+                type="text"
+                aria-label="enter location"
+                class="ms-3 py-1 px-3 flex-grow-1 w-100"
+              />
+              <i
+                class="fa-regular fa-calendar-days h4 bg-danger text-white py-1 px-2 mt-2"
+              ></i>
+            </div>
+            <a href="#" class="btn flex-grow-1 btn-light py-1 ms-3 rounded-0"
+              >Search</a
+            >
+          </div>
+        </div>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div
+              class="text-white col-lg-5 d-flex flex-column align-items-start justify-content-center"
+            >
+              <h1 class="fw-bold display-6">Scenic Getaways from Bangalore</h1>
+              <p class="mt-3 fw-bold">
+                Explore the diverse landscapes surrounding Bangalore with our
+                curated trips to Madikeri, Wayanad, Hospet, and Tirupati. From
+                the lush hills of Madikeri to the serene backwaters of Wayanad,
+                each destination offers a unique and enchanting experience.
+                Immerse yourself in nature, discover historical treasures, and
+                relish the cultural richness of these incredible locations.
+                Whether you seek adventure or tranquility, our curated trips
+                promise memorable moments and unforgettable journeys.
+              </p>
+            </div>
+
+            <div class="col-lg-7 mt-5 mt-lg-4">
+              <div class="owl-carousel owl-theme" id="header-carousel">
+                <a href="#madikeri" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Madikeri
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1700843375853-9075ed09ddcf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#wayanad" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Wayanad
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1572408992122-a530c9a09dbb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2F5YW5hZHxlbnwwfHwwfHx8MA%3D%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#hospet" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Hospet
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1558963235-eff20c9f7d99?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9zcGV0fGVufDB8fDB8fHww"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a
+                  href="#pondicherry"
+                  class="item mx-3 d-flex position-relative"
+                >
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Pondicherry
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1624257146471-78ea613e1649?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cG9uZGljaGVycnl8ZW58MHx8MHx8fDA%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#ooty" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Ooty
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1590765759804-0b2b579820b3?q=80&w=1830&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#hassan" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Hassan
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://assets-news.housing.com/news/wp-content/uploads/2022/09/02141634/hassan-tourist-place-feature-compressed.jpg"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#tirupati" class="item d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Tirupati
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_090615.jpg"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#br-hills" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    B R Hills
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/23/57/f7/view-from-the-top.jpg?w=1200&h=1200&s=1"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a
+                  href="#puttaparthi"
+                  class="item mx-3 d-flex position-relative"
+                >
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Puttaparthi
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1654783952695-a592874a6b61?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHV0dGFwYXJ0aGl8ZW58MHx8MHx8fDA%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a
+                  href="#chikmagalur"
+                  class="item mx-3 d-flex position-relative"
+                >
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Chikmaglur
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1641479266919-a3883cf44aea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpa21hZ2FsdXJ8ZW58MHx8MHx8fDA%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a
+                  href="#kanchipuram"
+                  class="item mx-3 d-flex position-relative"
+                >
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Kanchipuram
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1621495619455-2869cd1d7a93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8a2FuY2hpcHVyYW18ZW58MHx8MHx8fDA%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#nagarhole" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Nagarhole
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1634874610907-2c9130e4e5d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmFnYXJob2xlfGVufDB8fDB8fHww"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#coonoor" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Coonoor
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1620498530575-16b80aa7aa36?q=80&w=1818&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#mysore" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Mysore
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1581502304218-e3ff4399d46b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a
+                  href="#bandiput-national-park"
+                  class="item mx-3 d-flex position-relative"
+                >
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Bandipur National Park
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1622050956578-94fd044a0ada?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#yercaud" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Yercaud
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1658417992443-cb5580571eab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eWVyY2F1ZHxlbnwwfHwwfHx8MA%3D%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="py-5">
+      <section
+        id="puttaparthi"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to Puttaparthi</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="puttaparthi-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-puttaparthi"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore – Puttaparthi
+              </button>
+            </h2>
+            <div
+              id="collapseOne-puttaparthi"
+              class="accordion-collapse collapse"
+              aria-labelledby="puttaparthi-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Other Benefits (On Arrival) Morning meet with our representative
+                and drive to Puttaparthi. Puttaparthi, located in the south-west
+                of Andhra Pradesh, is surrounded by arid and rocky hills
+                bordering Karnataka. Famous for its Sathya Sai Baba Mandir, it
+                is among the most famous religious tourist destinations in the
+                world. On arrival, check-in at Hotel. Overnight stay at the
+                hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="puttaparthi-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-puttaparthi"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Puttaparthi
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-puttaparthi"
+              class="accordion-collapse collapse"
+              aria-labelledby="puttaparthi-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                The day dedicated to Sai Baba of Puttaparthi, visiting the Sai
+                Baba temple and Ashram. Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="puttaparthi-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-puttaparthi"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - Puttaparthi to Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-puttaparthi"
+              class="accordion-collapse collapse"
+              aria-labelledby="puttaparthi-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Morning after breakfast leave for Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ftco-section my-5">
+        <div class="container">
+          <div class="row gap justify-content-center">
+            <div class="col-md-6 text-center mb-5">
+              <h2 class="heading-section">Contact Form</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="wrapper">
+                <div class="row no-gutters bg-light">
+                  <div
+                    class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch"
+                  >
+                    <div class="contact-wrap w-100 p-md-5 p-4">
+                      <h3 class="mb-4">Get in touch</h3>
+
+                      <form
+                        method="POST"
+                        id="contactForm"
+                        name="contactForm"
+                        class="contactForm"
+                      >
+                        <div class="row">
+                          <div class="col-md-6 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="name"
+                                >Full Name</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="name"
+                                id="name"
+                                placeholder="Name"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-6 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="email"
+                                >Email Address</label
+                              >
+                              <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                id="email"
+                                placeholder="Email"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="subject"
+                                >Subject</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="subject"
+                                id="subject"
+                                placeholder="Subject"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="#">Message</label>
+                              <textarea
+                                name="message"
+                                class="form-control"
+                                id="message"
+                                cols="30"
+                                rows="4"
+                                placeholder="Message"
+                              ></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input
+                                type="submit"
+                                value="Send Message"
+                                class="btn btn-primary"
+                              />
+                              <div class="submitting"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-4 text-light col-md-5 d-flex align-items-stretch"
+                  >
+                    <div class="info-wrap bg-primary w-110 p-md-5 p-3">
+                      <h3>Let's get in touch</h3>
+                      <p class="mb-4">
+                        We're open for any suggestion or just to have a chat
+                      </p>
+                      <div
+                        class="dbox w-100 d-flex justify-content-center align-items-center gap-3"
+                      >
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <i class="fa-solid fa-location-pin"></i>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Address:</span> 34,Sewak park(1st floor),
+                            Dwarka more metro,Near metro piller no-772 New
+                            Delhi-110059.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 d-flex align-items-start gap-3">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-phone"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Phone:</span>
+                            <a
+                              class="text-decoration-none text-light"
+                              href="tel://1234567920"
+                              >+18001210140</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 gap-3 d-flex align-items-center">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-paper-plane"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Email:</span>
+                            <a
+                              class="text-decoration-none text-light"
+                              href="mailto:info@yoursite.com"
+                              >info@admireholidays.com
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 gap-3 d-flex align-items-center">
+                        <div
+                          class="icon d-flex justify-content-center align-items-center"
+                        >
+                          <span class="fa fa-globe"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Website</span>
+                            <a class="text-decoration-none text-light" href="#"
+                              >https://triptohoneymoon.com/</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-light text-white py-5 text-dark">
+      <div class="container">
+        <div class="row gap-5 border-bottom border-dark-subtle py-5">
+          <div class="col-lg-4 col-12">
+            <img src="../assets/img/logo.png" id="footer-brand" />
+            <p class="my-3">
+              Embark on a journey of love with our exquisite honeymoon packages.
+              We specialize in creating unforgettable moments in the most
+              romantic destinations. Explore enchanting landscapes, enjoy
+              luxurious accommodations, and celebrate the beginning of your new
+              chapter with us. Let your honeymoon be a seamless blend of romance
+              and adventure.
+            </p>
+          </div>
+          <div class="col-2">
+            <h3 class="fs-4">Policy</h3>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none">Privacy</a></li>
+              <li><a href="#" class="text-decoration-none">Terms of Use</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-4">
+            <h3 class="fs-4">Support</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="contact.html" class="text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="about.html" class="text-decoration-none">About Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-3">
+            <h3 class="fs-4">Quick Links</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="productPageKerala.html" class="text-decoration-none"
+                  >Honeymoon in Kerala</a
+                >
+              </li>
+              <li>
+                <a href="productPageNepal.html" class="text-decoration-none"
+                  >Honeymoon in Nepal</a
+                >
+              </li>
+              <li>
+                <a href="productPageAndaman.html" class="text-decoration-none"
+                  >Honeymoon in Andaman</a
+                >
+              </li>
+              <li>
+                <a href="productPageKashmir.html" class="text-decoration-none"
+                  >Honeymoon in Kashmir</a
+                >
+              </li>
+              <li>
+                <a href="productPageThailand.html" class="text-decoration-none"
+                  >Honeymoon in Thailand</a
+                >
+              </li>
+              <li>
+                <a href="productPageDubai.html" class="text-decoration-none"
+                  >Honeymoon in Dubai</a
+                >
+              </li>
+              <li>
+                <a href="productPageMaldives.html" class="text-decoration-none"
+                  >Honeymoon in Maldives</a
+                >
+              </li>
+              <li>
+                <a href="productPageSingapore.html" class="text-decoration-none"
+                  >Honeymoon in Singapore</a
+                >
+              </li>
+              <li>
+                <a
+                  href="productPageSwitzerland.html"
+                  class="text-decoration-none"
+                  >Honeymoon in Switzerland</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-content-center my-5">
+          <div>&copy; TriptoHoneymoon 2023. All Rights Reserved.</div>
+          <div>
+            Follow Us On:
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-instagram"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-facebook"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      var fullImgBox = document.getElementById("fullImgBox");
+      var fullImg = document.getElementById("fullImg");
+      function openFullImg(pic) {
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+      }
+      function closeFullImg() {
+        fullImgBox.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
