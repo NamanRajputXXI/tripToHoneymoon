@@ -54,7 +54,7 @@ $("#product-carousel-2").owlCarousel({
 });
 
 
-$(".owl-carousel").owlCarousel({
+$(".navCarousel").owlCarousel({
   loop: true,
   margin: 10,
   nav: true,
@@ -69,6 +69,29 @@ $(".owl-carousel").owlCarousel({
     },
     1000: {
       items: 3,
+    },
+  },
+});
+
+$("#banglore__carousel--homepage").owlCarousel({
+  center: true,
+  // autoplay: true,
+  autoplay: true,
+  stagePadding: 20,
+  margin: 20,
+  loop: true,
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
+  items: 1,
+  responsive: {
+    768: {
+      items: 3,
+    },
+    576: {
+      items: 2,
+    },
+    320: {
+      items: 1,
     },
   },
 });
