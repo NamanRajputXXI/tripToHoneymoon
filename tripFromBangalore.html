@@ -1,0 +1,2666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage - TripToHoneymoon</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="src/main.css" />
+    <script src="./src/bootstrap.bundle.min.js"></script>
+
+    <script defer src="assets/js/script.js "></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="icon"
+      href="./assets/img/icons8-tour-100.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light pr-2 pb-3">
+        <div class="container d-flex justify-content-between">
+          <a href="./index.html" class="navbar-brand" aria-label="logo">
+            <img
+              class="navbar-brand"
+              id="logo"
+              src="assets/img/logo.png"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#header_nav"
+            aria-controls="header_nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="header_nav">
+            <ul
+              class="navbar-nav d-flex flex-xs-column flex-lg-row w-100 justify-content-center align-items-center"
+            >
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./domestic.html">Domestic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./international.html"
+                  >International</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-decoration-none text-dark small" href="">
+                  <button class="btn btn-outline-dark">
+                    <i class="fa-solid fa-phone px-1"></i>1800-121-0140
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid py-5" id="header-atf">
+        <div class="py-5 px-3 row">
+          <div
+            class="col-md-8 destination__decider text-white mb-5 p-3 d-flex align-items-center rounded-3 mx-auto flex-wrap"
+            style="border: 1px solid rgb(172, 172, 172)"
+          >
+            <div
+              class="ps-3 pe-4 text-center d-flex flex-column align-items-start"
+            >
+              <span class="">Find Your</span>
+              <!-- <br /> -->
+              <span class="">Holiday</span>
+            </div>
+            <div
+              class="d-flex flex-wrap flex-md-nowrap flex-grow-1 justify-content-center align-items-center ms-2 px-2"
+            >
+              <span class="small">To</span>
+              <input
+                type="text"
+                aria-label="enter location"
+                class="ms-3 py-1 px-3 flex-grow-1 d-inline-flex w-100"
+              />
+              <i
+                class="fa-solid fa-earth-asia bg-danger text-white py-2 px-2"
+              ></i>
+            </div>
+            <div
+              class="d-flex flex-wrap flex-md-nowrap flex-grow-1 justify-content-center align-items-center px-2"
+            >
+              <span class="small">When</span>
+              <input
+                type="text"
+                aria-label="enter location"
+                class="ms-3 py-1 px-3 flex-grow-1 w-100"
+              />
+              <i
+                class="fa-regular fa-calendar-days h4 bg-danger text-white py-1 px-2 mt-2"
+              ></i>
+            </div>
+            <a href="#" class="btn flex-grow-1 btn-light py-1 ms-3 rounded-0"
+              >Search</a
+            >
+          </div>
+        </div>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div
+              class="text-white col-lg-5 d-flex flex-column align-items-start justify-content-center"
+            >
+              <h1 class="fw-bold display-6">Scenic Getaways from Bangalore</h1>
+              <p class="mt-3 fw-bold">
+                Explore the diverse landscapes surrounding Bangalore with our
+                curated trips to Madikeri, Wayanad, Hospet, and Tirupati. From
+                the lush hills of Madikeri to the serene backwaters of Wayanad,
+                each destination offers a unique and enchanting experience.
+                Immerse yourself in nature, discover historical treasures, and
+                relish the cultural richness of these incredible locations.
+                Whether you seek adventure or tranquility, our curated trips
+                promise memorable moments and unforgettable journeys.
+              </p>
+            </div>
+
+            <div class="col-lg-7 mt-5 mt-lg-4">
+              <div class="owl-carousel owl-theme" id="header-carousel">
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Madikeri
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1700843375853-9075ed09ddcf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Wayanad
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1572408992122-a530c9a09dbb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2F5YW5hZHxlbnwwfHwwfHx8MA%3D%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Hospet
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1558963235-eff20c9f7d99?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9zcGV0fGVufDB8fDB8fHww"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Pondicherry
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1624257146471-78ea613e1649?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cG9uZGljaGVycnl8ZW58MHx8MHx8fDA%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Ooty
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1590765759804-0b2b579820b3?q=80&w=1830&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Hassan
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://assets-news.housing.com/news/wp-content/uploads/2022/09/02141634/hassan-tourist-place-feature-compressed.jpg"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Tirupati
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_090615.jpg"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    B R Hills
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/23/57/f7/view-from-the-top.jpg?w=1200&h=1200&s=1"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Puttaparthi
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1654783952695-a592874a6b61?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHV0dGFwYXJ0aGl8ZW58MHx8MHx8fDA%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Chickmaglur
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1641479266919-a3883cf44aea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpa21hZ2FsdXJ8ZW58MHx8MHx8fDA%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Kanchipuram
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1621495619455-2869cd1d7a93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8a2FuY2hpcHVyYW18ZW58MHx8MHx8fDA%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Nagarhole
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1634874610907-2c9130e4e5d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmFnYXJob2xlfGVufDB8fDB8fHww"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Coonoor
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1620498530575-16b80aa7aa36?q=80&w=1818&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Mysore
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1581502304218-e3ff4399d46b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Bandipur National Park
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1622050956578-94fd044a0ada?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+                <a href="#" class="item mx-3 d-flex position-relative">
+                  <p
+                    class="position-absolute z-1 align-self-end w-100 text-center fs-4 text-white"
+                  >
+                    Yercaud
+                  </p>
+                  <div
+                    class="position-absolute top-0 start-0 bottom-0 end-0 z-0"
+                  ></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1658417992443-cb5580571eab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eWVyY2F1ZHxlbnwwfHwwfHx8MA%3D%3D"
+                    alt=""
+                    class="w-100 h-100"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="py-5">
+      <section
+        id="madikeri"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to madikeri</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="madikeri-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-madikeri"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore – Madikeri Other Benfits (On Arrival)
+              </button>
+            </h2>
+            <div
+              id="collapseOne-madikeri"
+              class="accordion-collapse collapse show"
+              aria-labelledby="madikeri-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Morning meet with our representative and then we will drive to
+                the beautiful hill station Madikeri, the district headquarters
+                of Coorg (Kodagu). It was previously known as Muddurajakeri
+                which was named after the first ruler Mudduraja from this place
+                since 1681, later it became Madikeri. It is the most picturesque
+                town of Coorg having lots of picnic spots in and around. It is
+                very popular hill station among the tourist. It is situated at
+                an altitude of 1061 mt which features a tropical highland
+                climate and lies in the Western Ghats. Madikeri is often
+                referred to as the Scotland of India for its very beautiful hill
+                station with mild climate during the summer. For its scenic
+                spots sometimes referred to as Mini Kashmir. Upon arrival check
+                into the hill resort. Evening free at this blessing place, the
+                gift of God presented here. Overnight stay at resort.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="madikeri-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-madikeri"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Madikeri
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-madikeri"
+              class="accordion-collapse collapse"
+              aria-labelledby="madikeri-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                This morning we will go on a half day excursion around Madikeri
+                visiting The Madikeri Palace or Fort, Omkareshwar Temple,
+                Raja&#39;s seat, Abbi etc, which are located in very close
+                vicinity. First we will visit Raja&#39;s seat – locate just 1 ½
+                km from Madikeri, this is one of the most enchanting place in
+                Madikeri, and once it was the preferred place of recreation for
+                the Rajas and hence was permanently associated with them. It is
+                built on a high level ground with a commanding view of the
+                cliffs and valleys to the west. Once can have the enchanting
+                views of the sunrise and sunset from here. Later we will drive
+                to visit the Abbi falls - located around 8 kms from the town of
+                Madikeri, is situated between coffee plantations, spice estates
+                and green trees where several streams join from the mountains
+                and gush down to join the Kaveri River. Abby cascades 70 ft down
+                to flow as a small river and the falls appear suddenly, the
+                water cascading over rocks into calm pools. Enjoy the gushing,
+                roaring beauty but a desire to take a dip in the cool waters may
+                prove to be risky. While returning we will visit Omkareshwar
+                temple – it is located just 1 km from the heart of the Madikeri.
+                In 1820 a significant building built by Linga Rajendra was
+                Omkareshwara temple. It has both Islamic and Gothic style of
+                architecture. There is a tank in front of the temple &amp; a
+                footpath leading to a small &quot;Mantap&quot;. According to the
+                legends, the Shiva Lingam worshipped in the temple has been
+                imported from the sacred city of Varanasi. The Madikeri Palace
+                or Fort – the palace of the erstwhile kings located inside the
+                Madikeri For and now it houses the offices of the Deputy
+                Commissioner of Coorg. The museum inside the fort is run by the
+                state archaeology department. The museum is a source of many
+                antiques of Coorg. The original mud fort was rebuilt in stone by
+                Tipu Sultan. Two life-size elephants made of mortar. Once can
+                also visit the Mahatma Gandhi Public Library, the Kote Maha
+                Ganapathi temple and the district prison all are located inside
+                the fort. Later return to the resort for lunch. Enjoy the rest
+                of the day in the lap of nature. Overnight stay at resort.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="madikeri-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-madikeri"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - Madikeri - Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-madikeri"
+              class="accordion-collapse collapse"
+              aria-labelledby="madikeri-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                After breakfast we will leave for Bangalore with the lingering
+                memories of Madikeri.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="wayanad"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to Wayanad</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="wayanad-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-wayanad"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore - Wayanad Other Benfits (On Arrival)
+              </button>
+            </h2>
+            <div
+              id="collapseOne-wayanad"
+              class="accordion-collapse collapse"
+              aria-labelledby="wayanad-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Our representative will meet you in the morning and then we will
+                drive to Wayanad via Mysore. Here we will enjoy the mystic
+                quality of awe inspiring mountain views and the plantations
+                where tea, coffee, rubber, pepper and cardamom gently coexist
+                with the rich diversity of tranquil sub-tropical forests. The
+                undulating paths of Wayanad will lead you breath-taking
+                altitudes, from where you can look down and marvel at
+                nature&#39;s prowess, as a landscape painter. With a cool
+                climate and lush greenery Wayanad enjoys a pleasant climate the
+                whole year. Upon arrival check into the hotel. Rest of the day
+                at leisure. Overnight stay at resort.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="wayanad-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-wayanad"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Wayanad
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-wayanad"
+              class="accordion-collapse collapse"
+              aria-labelledby="wayanad-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                After breakfast the day free to relax and explore the scenic
+                surroundings. Overnight stay at resort. Wayanad is known for its
+                spices, waterfalls and wildlife. Here you will have so many
+                things to do and cater your travel needs &amp; deeds. The
+                richness of Wayanad is blessed with nature and wildlife,
+                sprawling tea, coffee and spice plantations. For adventure and
+                trekking seekers Wayanad is more than paradise. Comprising of
+                various wildlife sanctuary and hilly regions there are lot of
+                activities here that one can indulge in. Optional : One can also
+                explore the nearby places Like Edakkal Caves (28 Km) and Pookode
+                Lake (12 Km) Edakkal Cavess is famous for its 5000 year old
+                fascinating ancient rock etchings and drawings. A place of
+                immense archaeological interest, the cave is frequented by
+                archaeologists, historians and tourists alike. There are various
+                scenes of hunting depicted on the walls of the two main
+                chambers. Pookot Lake is a fresh water Lake located in the
+                evergreen forests. The beauty of the lake, reflecting the lush
+                green canopy of the mountains, is further accentuated by the
+                surrounding meadows. The lake, situated at an altitude of 2000 m
+                above sea level and offers a variety of options to unwind and
+                relax; boat-rides being the perfect way to enjoy the scenic
+                beauty of the region. The place has an aquarium, children&#39;s
+                park and a small emporium selling handicrafts and spices.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="wayanad-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-wayanad"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 Wayanad - Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-wayanad"
+              class="accordion-collapse collapse"
+              aria-labelledby="-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                After spending some relaxing hours in the morning, we will leave
+                for Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="hospet"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to Hospet</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hospet-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-hospet"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore - Hospet
+              </button>
+            </h2>
+            <div
+              id="collapseOne-hospet"
+              class="accordion-collapse collapse"
+              aria-labelledby="hospet-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Other Benfits (On Arrival) Morning meet with our representative
+                and leave for Hospet. On the way stop for lunch at Chitradurga.
+                Further continue drive to Hospet. Arrive Hospet in the evening.
+                Upon arrival check into the hotel.Overnight stay at hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hospet-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-hospet"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Hospet – Hampi, 14 km one side - Hospet
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-hospet"
+              class="accordion-collapse collapse"
+              aria-labelledby="hospet-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Today after breakfast we will enjoy the half day excursion to
+                visit the ruins of Hampi. Later return to the Hospet. Hampi, the
+                seat of the famed Vijayanagara Empire was the capital of the
+                largest empire in post-moghul India, covering several states.
+                The Vijayanagaraempire stretched over at least three states
+                -Karnataka, Maharashtra, and Andhra Pradesh. The destruction of
+                Vijayanagar by marauding Moghul invaders was sudden, shocking
+                and absolute. Although in ruins today, this capital city once
+                boasted riches known far beyond the shores of India. The ruins
+                of Hampi of the 14th Century lies scattered in about 26 sq. km
+                area, amidst giant boulders and vegetation. Protected by the
+                tempestuous river Tungabhadra in the north and rocky granite
+                ridges on the other three sides, the ruins silently narrate the
+                story of grandeur splendor and fabulous wealth. The splendid
+                remains of palaces express a tale of man&#39;s infinite talent
+                and power of creativity together with his capacity for senseless
+                destruction. A visit to Hampi is a sojourn into the past. Most
+                of the important structures and ruins are located in two areas,
+                which are generally referred to as the Royal Centre and the
+                Sacred Centre. A visit to Anegundi village by traversing the
+                gushing Tungabhadra river on a coracle is an experience that
+                provides the guests with a glimpse into the traditional country
+                life in Karnataka. Later in the afternoon return to Hospet for
+                lunch. Remaining day at leisure to enjoy the activities and
+                facilities offered by the accommodation. Overnight stay at
+                hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hospet">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-hospet"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 Hospet - Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-hospet"
+              class="accordion-collapse collapse"
+              aria-labelledby="hospet-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                After spending a little time in the morning at the hotel, we
+                will leave for Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="pondicherry"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to Pondicherry</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="pondicherry-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-pondicherry"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore - Pondicherry
+              </button>
+            </h2>
+            <div
+              id="collapseOne-pondicherry"
+              class="accordion-collapse collapse"
+              aria-labelledby="pondicherry-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Other Benfits (On Arrival) Morning meet with our representative
+                and drive to Pondicherry, one of the most popular tourist
+                destinations in southern India. Pondicherry has many beautiful
+                colonial buildings, churches, temples, and statues which
+                combined with the systematic town planning and the well-planned
+                French style avenues, still preserve much of the colonial
+                ambiance. It is also a popular weekend destination, offering a
+                blend of spiritual aura, French colonial heritage, Tamil
+                culture, virgin beaches, and the cosmopolitan flair of many
+                nationalities in a small but varied city. The most popular
+                tourist destinations are the four beaches in Pondicherry, which
+                are Promenade Beach, Paradise Beach, The Auroville Beach, and
+                Serenity Beach. On arrival, check-in at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="pondicherry-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-pondicherry"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Pondicherry
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-pondicherry"
+              class="accordion-collapse collapse"
+              aria-labelledby="pondicherry-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Morning visit Auroville, a place where people from different
+                nationalities, religions, creeds, and beliefs can live in peace
+                and harmony. The construction of this 'universal town' was
+                started in 1968 and is still under progress. Various countries
+                have offered to build permanent colonies that will reflect the
+                culture and ethos of the respective country. We will also visit
+                the Eglise de Sacre Coeur De Jesus, a Catholic church noted for
+                its Gothic architecture and stained glass panes, depicting the
+                entire life of Jesus Christ. Afternoon free to enjoy the beaches
+                at Pondicherry. Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="pondicherry-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-pondicherry"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - Pondicherry to Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-pondicherry"
+              class="accordion-collapse collapse"
+              aria-labelledby="pondicherry-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                After an early breakfast, leave for Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="ooty"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to Ooty</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="ooty-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-ooty"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore - Ooty
+              </button>
+            </h2>
+            <div
+              id="collapseOne-ooty"
+              class="accordion-collapse collapse"
+              aria-labelledby="ooty-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Other Benefits (On Arrival) Morning meet with our representative
+                and drive to Ooty, via Srirangapatnam, Mysore, Bandipur National
+                Park, Mudumalai National Park. Ooty, well-famous as the "Queen
+                of hill stations," is the capital of the Nilgiris district. Ooty
+                is one of the most popular tourist resorts and picturesque
+                picnic spots in India, situated at an altitude of 2240 meters.
+                Upon reaching Ooty, check into the hotel. Enjoy the remaining
+                day at leisure. Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="ooty-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-ooty"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Ooty
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-ooty"
+              class="accordion-collapse collapse"
+              aria-labelledby="ooty-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Morning post breakfast, we will go on a half-day sightseeing
+                tour around Ooty visiting its Botanical Garden, Ooty Lake,
+                Doddabetta peak, and Hindustan Photo Films Factory. Later return
+                to the hotel for Lunch. Rest of the day at leisure to
+                participate in the activities offered by the accommodation.
+                Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="ooty-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-ooty"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - Ooty to Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-ooty"
+              class="accordion-collapse collapse"
+              aria-labelledby="ooty-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                After breakfast, leave for Bangalore, en-route visit Mysore
+                Palace. Further continue the drive to Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="nagarhole"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to Nagarhole</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="nagarhole-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-nagarhole"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore - Nagarhole
+              </button>
+            </h2>
+            <div
+              id="collapseOne-nagarhole"
+              class="accordion-collapse collapse"
+              aria-labelledby="nagarhole-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Other Benefits (On Arrival) Your journey will start in the
+                morning from your pick up point from the city (Hotel / Airport /
+                Railway Station / Residence) and drive to Nagarhole National
+                Park. En-route, one can visit Srirangapatnam, famous for Tipu
+                Sultan's former capital. Srirangapatnam is a picturesque island
+                in the Cauvery River. The biggest of the three islands in the
+                River Cauvery, it is about 5 km long and 2 km wide. Further
+                continue drive to Nagarhole. On arrival, check in at the
+                wildlife resort. Evening enjoy the pleasant surroundings.
+                Overnight stay at the resort.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="nagarhole-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-nagarhole"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Nagarhole
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-nagarhole"
+              class="accordion-collapse collapse"
+              aria-labelledby="nagarhole-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Today we will wake up to the chirping of the birds and get ready
+                for our first Jungle Safari to spot the wildlife. The best time
+                to enjoy a jungle safari in the park is in the morning when the
+                atmosphere remains pleasant and chances of spotting animals are
+                maximum. Later return to the resort for fresh-n-up and
+                breakfast. After breakfast, it's time to enjoy the serenity
+                around the resort or one can participate in the various house
+                activities. After lunch, we will again get ready for wildlife
+                exploration inside the Nagarhole forest. Later in the evening
+                return to the resort. Rest of the day at leisure. Dinner and
+                overnight stay at the resort.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="nagarhole-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-nagarhole"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - Nagarhole to Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-nagarhole"
+              class="accordion-collapse collapse"
+              aria-labelledby="nagarhole-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Morning enjoy the calm and peaceful atmosphere. Later, after
+                having a delicious breakfast at the resort, we will check out
+                and leave for Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="shravanbelgola"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">
+          Trip from Bangalore to Shravanbelgola - Hassan
+        </h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="shravanbelgola-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-shravanbelgola"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore - Shravanbelgola - Hassan
+              </button>
+            </h2>
+            <div
+              id="collapseOne-shravanbelgola"
+              class="accordion-collapse collapse"
+              aria-labelledby="shravanbelgola-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Other Benefits (On Arrival) Morning meet with our representative
+                and drive to Shravanbelgola - Hassan, via Srirangapatnam,
+                Mysore, Bandipur National Park, Mudumalai National Park.
+                Shravanbelgola is famous for its colossal statue of Lord
+                Bahubali. It is a historic town and an important Jain pilgrimage
+                site. On arrival, check into the hotel. Enjoy the remaining day
+                at leisure. Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="shravanbelgola-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-shravanbelgola"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Shravanbelgola - Hassan
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-shravanbelgola"
+              class="accordion-collapse collapse"
+              aria-labelledby="shravanbelgola-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Morning post breakfast, we will explore Shravanbelgola and visit
+                the colossal statue of Lord Bahubali. Later, continue the drive
+                to Hassan. Upon reaching Hassan, check into the hotel. Rest of
+                the day at leisure to participate in the activities offered by
+                the accommodation. Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="shravanbelgola-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-shravanbelgola"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - Shravanbelgola - Hassan to Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-shravanbelgola"
+              class="accordion-collapse collapse"
+              aria-labelledby="shravanbelgola-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                After breakfast, leave for Bangalore. En-route, you may visit
+                Mysore Palace. Further continue the drive to Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="kanchipuram"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to Kanchipuram</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="kanchipuram-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-kanchipuram"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore – Kanchipuram
+              </button>
+            </h2>
+            <div
+              id="collapseOne-kanchipuram"
+              class="accordion-collapse collapse"
+              aria-labelledby="kanchipuram-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Other Benefits (On Arrival) Morning meet with our representative
+                and drive to Kanchipuram, located on the banks of the Vegavathi
+                River. Kanchipuram is one of the seven Indian cities to reach
+                final attainment. The city is a holy pilgrimage site for both
+                Saivites and Vaishnavites. Of the 108 holy temples of the Hindu
+                god Vishnu, 14 are located in Kanchipuram. The city is also well
+                known for its handwoven silk sarees, and most of the city's
+                workforce is involved in the weaving industry. It is a
+                traditional center of silk weaving and handloom industries for
+                producing Kanchipuram Saris. Upon arrival, check into the hotel.
+                Rest of the day at leisure. Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="kanchipuram-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-kanchipuram"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Kanchipuram
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-kanchipuram"
+              class="accordion-collapse collapse"
+              aria-labelledby="kanchipuram-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                After fresh-n-up proceed for half-day temple tour of
+                Kanchipuram. It is a city of a thousand temples. One of the
+                seven sacred cities of Hindus, it was the capital of the early
+                Cholas as far back as the 2nd century BC. Kanchi was a major
+                seat of Tamil learning as well as an important place of
+                pilgrimage for Buddhists, Jains, and Hindus. Apart from temples,
+                the city is also famous for its silk weavers, who settled here
+                some 400 years ago and have given it an enviable reputation.
+                Afternoon free at leisure. Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="kanchipuram-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-kanchipuram"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - Kanchipuram to Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-kanchipuram"
+              class="accordion-collapse collapse"
+              aria-labelledby="kanchipuram-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                After breakfast, leave for Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="br-hills"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to B R Hills</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="br-hills-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-br-hills"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore – B R Hills
+              </button>
+            </h2>
+            <div
+              id="collapseOne-br-hills"
+              class="accordion-collapse collapse"
+              aria-labelledby="br-hills-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Other Benefits (On Arrival) Your journey will start in the
+                morning from your pick-up point from the City (Hotel / Airport /
+                Railway Station / Residence) and drive to B R Hills sanctuary
+                (Biligiriranga Swamy Temple Wildlife Sanctuary). B R Hill is a
+                unique blend of a wildlife sanctuary and a hill station.
+                Situated at an altitude of 3500 ft above, the hills are
+                interspersed with valleys, streams, and places of breathtaking
+                scenic beauty. And the Biligirirangana Temple wildlife
+                sanctuary, is a heaven for a variety of wild animals and birds,
+                making it a 'must-see' for those who love the pristine beauty of
+                wilderness. On arrival, check in at the wildlife resort. After
+                lunch, enjoy trekking inside the sanctuary, which is an exciting
+                way to experience nature firsthand. Here we will be in the
+                company of a forest guide or local naturalists, who know the
+                terrain well and familiarize with its terrain. One can follow a
+                trail which leads all the way up to the peaks of nearby hills.
+                The views from atop the hill are astonishing, with misty
+                mountains and greenery spread out and open for miles. Later
+                return back to the resort for Dinner and overnight stay.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="br-hills-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-br-hills"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - B R Hills Sanctuary
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-br-hills"
+              class="accordion-collapse collapse"
+              aria-labelledby="br-hills-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Today we will awake a little early and will be ready to
+                experience our first vehicle safari to the sanctuary. The
+                deciduous, evergreen, and grassland vegetation here offer refuge
+                to a variety of wildlife, the major commonly sighted mammals are
+                gaur, spotted deer, wild boar, elephants, tiger, leopards, and
+                sloth bears. The sanctuary is also home to more than 270 species
+                of birds, including the scarlet minivet velvet-fronted nuthatch,
+                gold-fronted chloropsis, lorikeet, malabar parakeet,
+                heart-spotted woodpecker, and malabar whistling thrush, making
+                it a bird watcher's paradise. Later return to the resort for
+                lunch. After lunch, it's time to enjoy the virgin serenity
+                around the accommodation. In the evening, enjoy a wildlife movie
+                and later you can warm yourself around a campfire and listen to
+                the tales of the jungle told by naturalists and other guests, or
+                share your exciting wildlife tales with them. Overnight stay at
+                the resort.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="br-hills-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-br-hills"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - B R Hills to Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-br-hills"
+              class="accordion-collapse collapse"
+              aria-labelledby="br-hills-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Morning free for leisure and enjoy the vicinity around the hill
+                resort. Later, after breakfast, leave for Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="tirupati"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to Tirupati</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="tirupati-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-tirupati"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore – Tirupati
+              </button>
+            </h2>
+            <div
+              id="collapseOne-tirupati"
+              class="accordion-collapse collapse"
+              aria-labelledby="tirupati-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Other Benefits (On Arrival) Morning meet with our representative
+                and drive for Tirupati via K R Puram, Hoskote, Kolar, Mulbagal,
+                Palamaner, and Chitoor. Upon reaching the pilgrimage city of
+                Tirupati, transfer to the hotel. The city is dedicated to Lord
+                Venkateswara, and the famous Temple of the Lord Venkateswara is
+                located about 20 km northwest of the town in the Tirumala hills.
+                The Temple is located at an elevation of 853 meters. Tirupati is
+                among the most important pilgrimage centers in the World,
+                drawing millions of pilgrims and being the busiest pilgrimage
+                center in India and the world. This holy city has several
+                temples and is a major economic and educational hub in the
+                southern region of the state Tamil Nadu. Lord Vishnu is
+                worshiped in the Temple as per Vaikhanasa traditions. The
+                ancient texts of the sage Marichi state that Lord Vishnu here
+                should be worshipped six times a day. 1. UshaKala Aradhana -
+                worship should start and finish before sunrise. 2. Prathakala
+                Aradhana - worship should start after sunrise and finish before
+                noon. 3. Madhyanika Aradhana - worship should start and finish
+                at noon. 4. Aparahana Aradhana - worship should start when the
+                sun starts to descend. 5. SandhyaKala Aradhana - worship should
+                start and finish around the sunset. 6. Ardharatri Aradhana -
+                worship should start after the horizon is completely dark. After
+                fresh-n-up, one can participate in the evening visit pooja
+                darshan at Balaji Temple. Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="tirupati-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-tirupati"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Tirupati
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-tirupati"
+              class="accordion-collapse collapse"
+              aria-labelledby="tirupati-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                An early morning participate in the morning aarti darshan
+                visiting seegra darshan at the Temple. After darshan, we will
+                visit the Tiruchanur Temple, which is the abode of Shri
+                Padmavathi, who was the consort of Lord Balaji. Later proceed to
+                visit Sri Kalyana Venkateswaraswami Temple at Srinivasa
+                Mangapuram. Also visit Kapila Theertham, a Temple dedicated to
+                Lord Shiva with beautiful waterfalls in the background.
+                Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="tirupati-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-tirupati"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - Tirupati to Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-tirupati"
+              class="accordion-collapse collapse"
+              aria-labelledby="tirupati-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                After breakfast, leave for Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="puttaparthi"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to Puttaparthi</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="puttaparthi-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-puttaparthi"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore – Puttaparthi
+              </button>
+            </h2>
+            <div
+              id="collapseOne-puttaparthi"
+              class="accordion-collapse collapse"
+              aria-labelledby="puttaparthi-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Other Benefits (On Arrival) Morning meet with our representative
+                and drive to Puttaparthi. Puttaparthi, located in the south-west
+                of Andhra Pradesh, is surrounded by arid and rocky hills
+                bordering Karnataka. Famous for its Sathya Sai Baba Mandir, it
+                is among the most famous religious tourist destinations in the
+                world. On arrival, check-in at Hotel. Overnight stay at the
+                hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="puttaparthi-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-puttaparthi"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Puttaparthi
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-puttaparthi"
+              class="accordion-collapse collapse"
+              aria-labelledby="puttaparthi-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                The day dedicated to Sai Baba of Puttaparthi, visiting the Sai
+                Baba temple and Ashram. Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="puttaparthi-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-puttaparthi"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - Puttaparthi to Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-puttaparthi"
+              class="accordion-collapse collapse"
+              aria-labelledby="puttaparthi-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Morning after breakfast leave for Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="coonoor"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to Coonoor</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="coonoor-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-coonoor"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore – Coonoor
+              </button>
+            </h2>
+            <div
+              id="collapseOne-coonoor"
+              class="accordion-collapse collapse"
+              aria-labelledby="coonoor-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Other Benefits (On Arrival) Morning meet with our representative
+                and drive to Coonoor, via Srirangapatnam, Mysore, Bandipur
+                National Park, Mudumalai National Park. Coonoor is known for its
+                production of Nilgiri tea. It is located at an altitude of 1,850
+                mt above sea level and is the second largest hill station in the
+                Nilgiri hills after Ooty. It is an ideal base for a number of
+                trekking expeditions leading into the Nilgiris. Upon reaching
+                Coonoor, check into the hotel. Enjoy the remaining day at
+                leisure. Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="coonoor-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-coonoor"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Coonoor
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-coonoor"
+              class="accordion-collapse collapse"
+              aria-labelledby="coonoor-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Morning post breakfast, we will go on a half-day sightseeing
+                tour around Coonoor visiting the Dolphin's nose, Sim's Park, and
+                Dolhin's nose. Later return to the hotel for Lunch. Rest of the
+                day at leisure to participate in the activities offered by the
+                accommodation. Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="coonoor-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-coonoor"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - Coonoor to Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-coonoor"
+              class="accordion-collapse collapse"
+              aria-labelledby="coonoor-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Morning after breakfast, check out from the hotel and leave for
+                Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="chikmagalur"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to Chikmagalur</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="chikmagalur-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-chikmagalur"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore - Chikmagalur
+              </button>
+            </h2>
+            <div
+              id="collapseOne-chikmagalur"
+              class="accordion-collapse collapse"
+              aria-labelledby="chikmagalur-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Stay Included Other Benefits (On Arrival) Morning meet with our
+                representative and drive to the hill station of Chikmagalur.
+                Situated in the southern state of Karnataka, Chikmagalur
+                literally means "The town of the younger daughter" in the native
+                Kannada language. The town is said to have been given as a dowry
+                to the younger daughter of Rukmangada, the legendary chief of
+                Sakrepatna and hence the name. Chikmagalur was the first place
+                that coffee was first cultivated in India. Rivers like Tunga and
+                Bhadra have their sources in the mountains here which are part
+                of the Western Ghats. On the way to Chikmagalur, we will visit
+                the ruins of Belur in Hassan district. Belur is famous for its
+                magnificent Hoysala Temple Complex. The Chennakesava Temple here
+                is the major attraction, built by Hoysala Vishnuvardhana, to
+                commemorate his victory over the Cholas. The facade of the
+                temple is filled with intricate sculptures with no portion left
+                blank. It is the only Hoysala Temple still in active worship.
+                Further continue drive to Chikmagalur. Upon arrival check into
+                the resort. Rest of the day at leisure. Overnight stay at the
+                resort.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="chikmagalur-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-chikmagalur"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Chikmagalur
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-chikmagalur"
+              class="accordion-collapse collapse"
+              aria-labelledby="chikmagalur-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Today after breakfast, we will visit Mullayangiri for its
+                breathtaking view. Mullayanagiri is part of the Baba Budangiri
+                Hill Ranges here. It stands 1930 meters tall and is the tallest
+                peak in Karnataka. Its height is famous mostly for watching
+                sunsets from. It is 16 km from Chikmagalur town. Driving to
+                Mullayanagiri is worth taking a risk. On the way is
+                Sitalayanagiri where the water in the Shiva temple neither
+                increases nor decreases. The road to Mullayanagiri is very
+                narrow with views from steep cliffs. Driving to the peak is not
+                possible and includes a trek up the hill from the halfway point.
+                There is a small temple on top of the hill. From the topmost
+                point of the hill, the Arabian sea is visible on clear days. The
+                small hillock in the temple compound is the highest point in
+                Karnataka. The narrow road to the temple makes two-way traffic
+                impossible. It is a great trekking spot in Karnataka. Later
+                return to the resort for lunch. After lunch, it's time to relax
+                and enjoy the calmness of nature. Overnight stay at the hotel.
+                Optional: One may opt for its enchanting waterfalls like
+                Kallathigiri Falls and Hebbe Falls while staying in Chikmagalur.
+                Kallathigiri Falls, also known as Kalahasti falls is a fall that
+                cascades down from the top of the Chandra Drona hill from a
+                height of 122 meters amidst fascinating scenery. There is an old
+                Veerabhadra temple dedicated to Lord Shiva, constructed in a gap
+                between rocks. This temple can be approached after crossing the
+                waterfall. Hebbe Falls, in this beautiful waterfall the water
+                streams down from a height of 168 meters in two stages to form
+                Dodda Hebbe (Big Falls) and Chikka Hebbe (Small Falls).
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="chikmagalur-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-chikmagalur"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - Chikmagalur to Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-chikmagalur"
+              class="accordion-collapse collapse"
+              aria-labelledby="chikmagalur-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                After a sumptuous breakfast, leave for Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="mysore"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to Mysore</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="mysore-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-mysore"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore - Mysore
+              </button>
+            </h2>
+            <div
+              id="collapseOne-mysore"
+              class="accordion-collapse collapse"
+              aria-labelledby="mysore-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Other Benefits (On Arrival) Morning meet with our representative
+                and drive to Mysore situated at an altitude of 770 mts. Earlier
+                it was the capital city of the Wodeyars and a well-known city
+                for its admirers with its quaint charm, rich heritage,
+                magnificent palaces, beautifully laid-out gardens, imposing
+                buildings, broad shady avenues and sacred temples. Today, Mysore
+                is a vibrant city teeming with tourists and visitors. It is
+                known by the entire world for its exotic sandalwood and rich
+                silks. Its grand and imposing palaces, majestic temples, gardens
+                are worth viewing and tell the story of a bygone era. Upon
+                reaching Mysore, transfer to the hotel. Rest of the day free at
+                leisure to feel its grandeur. Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="mysore-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-mysore"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Mysore
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-mysore"
+              class="accordion-collapse collapse"
+              aria-labelledby="mysore-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Today after breakfast, we will have a sightseeing excursion of
+                this massive city visiting the Mysore Palace - The Maharaja's
+                Palace built in Indo-Saracenic style with domes, turrets,
+                arches, and colonnades. The Palace is a treasure house of
+                exquisite carvings and works of art from all over the world.
+                Chamundi Hills - A well-known 335 mt high landmark, Chamundi
+                Hill can be reached by a 13 km road or by climbing up the 1,000
+                steps laid out by the Mysore Maharaja in the 17th century.
+                Brindavan Gardens - Located at the KR Sagar Dam, Brindavan
+                Gardens is one of the best gardens in South India. Spread over
+                150 acres, Brindavan Gardens has since the 1960s provided the
+                backdrop for many Indian films. Special attractions include the
+                Dancing Fountains. Mysore Zoo - The Zoo was set up under royal
+                patronage in the 19th century. Its fauna includes rare and
+                exotic species that are housed in lush, green surroundings. The
+                Zoo is famous for breeding some very rare animals in captivity.
+                For art lovers, there is The Art Gallery - The Jaganmohan Palace
+                was converted into an art gallery in 1875 and exhibits paintings
+                that date back to that period. The artists of that time used
+                natural vegetable and mineral dyes. The famous traditional
+                Mysore 'gold leaf' paintings are also exhibited in the gallery,
+                as are oil paintings of contemporary artists like Raja Ravi
+                Varma and Svetoslav Roerich. Later return to the hotel. Evening
+                free at leisure. Overnight stay at the hotel.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="mysore-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-mysore"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - Mysore to Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-mysore"
+              class="accordion-collapse collapse"
+              aria-labelledby="mysore-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                After breakfast, leave for Bangalore, en-route visit the Tipu
+                Fort at Srirangapatnam, famous for Tipu Sultan's former capital.
+                An obelisk in the fort marks the place where he fell - betrayed
+                by his own men. The fort holds within it a mosque and the
+                Ranganathaswamy Temple. Outside the fort is the Gumbaz, Tipu's
+                tomb with splendid ebony doors inlaid with ivory. Further
+                continue the drive to Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="bandipur"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">
+          Trip from Bangalore to Bandipur National Park
+        </h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="bandipur-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-bandipur"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore - Bandipur National Park
+              </button>
+            </h2>
+            <div
+              id="collapseOne-bandipur"
+              class="accordion-collapse collapse"
+              aria-labelledby="bandipur-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Other Benefits (On Arrival) Morning our representative will meet
+                you at your residence followed by a drive to Bandipur National
+                Park. En-route, one can visit Srirangapatnam (Optional), famous
+                for the Tipu Sultan's former capital. Srirangapatnam is a
+                picturesque island in the Cauvery River. The biggest of the
+                three islands in the River Cauvery, it is about 5 km long and 2
+                km wide. Further visit to Mysore, later drive to Bandipur. On
+                arrival, check in at the wildlife resort. Evening enjoy the
+                pleasant surroundings. Overnight stay at the resort. Bandipur
+                situates between the foothills of the Western Ghats and Nilgiri
+                mountains. Upon arrival check in at the wildlife resort. Rest of
+                the day leisure to enjoy the calm serenity of the forest resort.
+                Dinner and overnight stay at the resort.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="bandipur-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-bandipur"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Bandipur National Park
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-bandipur"
+              class="accordion-collapse collapse"
+              aria-labelledby="bandipur-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Today we will wake a little early and get ready for our first
+                Jungle experience to spot the wildlife. We will board a safari
+                van (open canter) to explore the Bandipur National Park. Later
+                return to the resort for fresh-n-up and breakfast. After
+                breakfast, it’s time to enjoy the serenity around the resort or
+                one can participate in the various house activities. After lunch
+                we will again get ready for wildlife exploration & birding
+                within the periphery of the national park. This we will be on
+                foot and will be doing a guided walk to explore its amazing
+                wildlife. Later in the evening return to the resort. Evening
+                enjoy the activities offered by the resort. Dinner and overnight
+                stay at the resort. Bandipur was once a private hunting reserve
+                for the Maharaja of the Kingdom of Mysore. It has a remarkable
+                variety of flora and fauna. Bandipur is home to Leopard, Asiatic
+                Wild Dogs, Striped Hyenas, Jackals, Jungle Cats, Leopard Cats,
+                Rusty Spotted Cats, Palm Civet, Small Indian Civets, Otters and
+                four different species of Mongooses (the common stripe-necked,
+                brown and ruddy mongooses), Gaur, Sambar, Cheetal, Muntjac,
+                Barking Deer, Mouse Deer, Four-Horn Antelope, Pangolin, Indian
+                Porcupine, Fruit Bat, Spender Loris, Langur, Bonnet Macaque,
+                Wild Pig, Black Saped Hare, and a variety of reptiles such as
+                Rock Python, Cobra, Marsh Crocodile, Monitor Lizard, Rat Snake,
+                Wolf Snake, Common Krait, Runel's Viper Bamboo Pit Viper, and
+                Green Keel Back are also found here.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="bandipur-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-bandipur"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - Bandipur to Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-bandipur"
+              class="accordion-collapse collapse"
+              aria-labelledby="bandipur-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Morning after breakfast, we will visit Venugopalaswamy temple at
+                Himavad Gopalaswamy Betta. It is a hill located at a height of
+                1450m and is extensively wooded. It is also the highest peak in
+                the Bandipur National Park. The view from here is worth viewing.
+                It lies in the core area of the Bandipur National Park and is
+                frequented by wildlife, including elephants. Return to the
+                resort for fresh-n-up & breakfast. After breakfast leave for
+                Bangalore.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="yercaud"
+        class="bg-light d-flex flex-column gap-4 container p-5"
+      >
+        <h1 class="text-center">Trip from Bangalore to Yercaud</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="yercaud-1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-yercaud"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 1 - Bangalore - Yercaud
+              </button>
+            </h2>
+            <div
+              id="collapseOne-yercaud"
+              class="accordion-collapse collapse"
+              aria-labelledby="yercaud-1"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Other Benefits (On Arrival) Morning meet with our representative
+                and drive to Yercaud, the famous hill station in Salem district
+                of the state Tamilnadu. The hill station is a round the year
+                visited place. The Servarayan Hills as a whole provide many
+                beautiful vistas and panoramic views. Yercaud itself is a pretty
+                hill station with a pleasant cool climate. Yercaud's temperature
+                never rises above 30° C or falls below 13° C. This is one hill
+                station where one does not feel the biting cold of winter. Upon
+                arrival at Yercaud check into the hill resort. Rest of the day
+                free at leisure. Overnight stay at the resort.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="yercaud-2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo-yercaud"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 2 - Yercaud
+              </button>
+            </h2>
+            <div
+              id="collapseTwo-yercaud"
+              class="accordion-collapse collapse"
+              aria-labelledby="yercaud-2"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                After a sumptuous breakfast will go on an enthralling visit to
+                Yercaud, visiting its Lake – The lake is a picturesque pool
+                surrounded by gardens and well-wounded areas. Boating in the
+                cold water of the lake is enchanting as well as refreshing.
+                Lady's Seat - It overlooks the winding ghat road and provides a
+                breathtaking view. This view is spectacular at night with the
+                twinkling lights of Salem town in sight. From here one can have
+                a panoramic view of the plains below, through the telescope
+                mounted at the Lady's Seat. Killiyur Falls - This 3000 feet high
+                waterfall is situated amidst picturesque surroundings. Bear's
+                Cave - Situated near the Norton Bungalow on the way to
+                Servarayan temple, it is an important tourist spot. The temple
+                in this place is one of the six abodes of Lord Subramanya. Its
+                innermost shrine is cut out of a solid rock. Later return to the
+                resort for lunch. Rest of the day free at leisure. Overnight
+                stay at the resort.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="yercaud-3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree-yercaud"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Day 3 - Yercaud to Bangalore
+              </button>
+            </h2>
+            <div
+              id="collapseThree-yercaud"
+              class="accordion-collapse collapse"
+              aria-labelledby="yercaud-3"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Spend the morning at leisure in Yercaud. Later in the afternoon,
+                leave for Bangalore with sweet memories.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h1 class="text-center">Testimonials</h1>
+        <div class="carousel-wrap py-5">
+          <div class="owl-carousel container owl-theme">
+            <div
+              class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+            >
+              <p>
+                "Responsive, committed, and highly professional approach to
+                every task."
+              </p>
+              <div class="d-flex w-100 align-items-center">
+                <img
+                  class="rounded-circle fit-cover"
+                  style="width: 75px; height: 75px"
+                  src="assets/img/placeholder__image.png"
+                  alt=""
+                />
+                <div
+                  class="text-left justify-content-start d-flex px-3 flex-column"
+                >
+                  <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                    Vikas
+                  </p>
+                  <p class="text-muted text-left mb-0 w-25">CEO</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+            >
+              <p>
+                "Highly recommended! Their expertise in the field is
+                outstanding."
+              </p>
+              <div class="d-flex w-100 align-items-center">
+                <img
+                  class="rounded-circle fit-cover"
+                  style="width: 75px; height: 75px"
+                  src="assets/img/placeholder__image.png"
+                  alt=""
+                />
+                <div
+                  class="text-left justify-content-start d-flex px-3 flex-column"
+                >
+                  <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                    Minal
+                  </p>
+                  <p class="text-muted text-left mb-0">Company Owner</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+            >
+              <p>
+                "Efficient, reliable, and understanding of our project needs."
+              </p>
+              <div class="d-flex w-100 align-items-center">
+                <img
+                  class="rounded-circle fit-cover"
+                  style="width: 75px; height: 75px"
+                  src="assets/img/placeholder__image.png"
+                  alt=""
+                />
+                <div
+                  class="text-left justify-content-start d-flex px-3 flex-column"
+                >
+                  <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                    Prerna
+                  </p>
+                  <p class="text-muted text-left mb-0 w-25">Architect</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+            >
+              <p>
+                "Consistently went the extra mile to ensure project success."
+              </p>
+              <div class="d-flex w-100 align-items-center gap-2">
+                <img
+                  class="rounded-circle fit-cover"
+                  style="width: 75px; height: 75px"
+                  src="assets/img/placeholder__image.png"
+                  alt=""
+                />
+                <div
+                  class="text-left justify-content-start d-flex px-3 flex-column"
+                >
+                  <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                    Mukul
+                  </p>
+                  <p class="text-muted text-left mb-0">Engineer</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+            >
+              <p>
+                "Responsive, committed, and highly professional approach to
+                every task."
+              </p>
+              <div class="d-flex w-100 align-items-center">
+                <img
+                  class="rounded-circle fit-cover"
+                  style="width: 75px; height: 75px"
+                  src="assets/img/placeholder__image.png"
+                  alt=""
+                />
+                <div
+                  class="text-left justify-content-start d-flex px-3 flex-column"
+                >
+                  <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                    Mahesh
+                  </p>
+                  <p class="text-muted text-left mb-0 w-25">Doctor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="container flex-column h-50 d-flex w-100 justify-content-center align-items-center"
+      >
+        <h1>FAQ</h1>
+        <div class="accordion pt-3 w-100" id="accordionExample1">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                What does the Honeymoon Package include?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample1"
+            >
+              <div class="accordion-body">
+                <strong>The Honeymoon Package includes:</strong> Romantic
+                accommodations, special dining experiences, curated activities,
+                and more to make your honeymoon unforgettable.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne-two">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-two"
+                aria-expanded="false"
+                aria-controls="collapseOne-two"
+              >
+                Can I customize my Honeymoon Package?
+              </button>
+            </h2>
+            <div
+              id="collapseOne-two"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne-two"
+              data-bs-parent="#accordionExample1"
+            >
+              <div class="accordion-body">
+                <strong>Yes, you can customize your Honeymoon Package!</strong>
+                Tailor your trip to include specific destinations, activities,
+                and amenities that suit your preferences and create a
+                personalized romantic experience.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne-three">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-three"
+                aria-expanded="false"
+                aria-controls="collapseOne-three"
+              >
+                What documents are required for international Honeymoon
+                Packages?
+              </button>
+            </h2>
+            <div
+              id="collapseOne-three"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne-three"
+              data-bs-parent="#accordionExample1"
+            >
+              <div class="accordion-body">
+                <strong
+                  >For international Honeymoon Packages, ensure you
+                  have:</strong
+                >
+                Valid passports, appropriate visas, and any specific
+                documentation required by the destination country. Check with
+                our travel experts for detailed information.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ftco-section my-5">
+        <div class="container">
+          <div class="row gap justify-content-center">
+            <div class="col-md-6 text-center mb-5">
+              <h2 class="heading-section">Contact Form</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="wrapper">
+                <div class="row no-gutters bg-light">
+                  <div
+                    class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch"
+                  >
+                    <div class="contact-wrap w-100 p-md-5 p-4">
+                      <h3 class="mb-4">Get in touch</h3>
+
+                      <form
+                        method="POST"
+                        id="contactForm"
+                        name="contactForm"
+                        class="contactForm"
+                      >
+                        <div class="row">
+                          <div class="col-md-6 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="name"
+                                >Full Name</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="name"
+                                id="name"
+                                placeholder="Name"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-6 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="email"
+                                >Email Address</label
+                              >
+                              <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                id="email"
+                                placeholder="Email"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="subject"
+                                >Subject</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="subject"
+                                id="subject"
+                                placeholder="Subject"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="#">Message</label>
+                              <textarea
+                                name="message"
+                                class="form-control"
+                                id="message"
+                                cols="30"
+                                rows="4"
+                                placeholder="Message"
+                              ></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input
+                                type="submit"
+                                value="Send Message"
+                                class="btn btn-primary"
+                              />
+                              <div class="submitting"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-4 text-light col-md-5 d-flex align-items-stretch"
+                  >
+                    <div class="info-wrap bg-primary w-110 p-md-5 p-3">
+                      <h3>Let's get in touch</h3>
+                      <p class="mb-4">
+                        We're open for any suggestion or just to have a chat
+                      </p>
+                      <div
+                        class="dbox w-100 d-flex justify-content-center align-items-center gap-3"
+                      >
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <i class="fa-solid fa-location-pin"></i>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Address:</span> 34,Sewak park(1st floor),
+                            Dwarka more metro,Near metro piller no-772 New
+                            Delhi-110059.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 d-flex align-items-start gap-3">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-phone"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Phone:</span>
+                            <a
+                              class="text-decoration-none text-light"
+                              href="tel://1234567920"
+                              >+18001210140</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 gap-3 d-flex align-items-center">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-paper-plane"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Email:</span>
+                            <a
+                              class="text-decoration-none text-light"
+                              href="mailto:info@yoursite.com"
+                              >info@admireholidays.com
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 gap-3 d-flex align-items-center">
+                        <div
+                          class="icon d-flex justify-content-center align-items-center"
+                        >
+                          <span class="fa fa-globe"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Website</span>
+                            <a class="text-decoration-none text-light" href="#"
+                              >https://triptohoneymoon.com/</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-light text-white py-5 text-dark">
+      <div class="container">
+        <div class="row gap-5 border-bottom border-dark-subtle py-5">
+          <div class="col-lg-4 col-12">
+            <img src="assets/img/logo.png" id="footer-brand" />
+            <p class="my-3">
+              Embark on a journey of love with our exquisite honeymoon packages.
+              We specialize in creating unforgettable moments in the most
+              romantic destinations. Explore enchanting landscapes, enjoy
+              luxurious accommodations, and celebrate the beginning of your new
+              chapter with us. Let your honeymoon be a seamless blend of romance
+              and adventure.
+            </p>
+          </div>
+          <div class="col-2">
+            <h3 class="fs-4">Policy</h3>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none">Privacy</a></li>
+              <li><a href="#" class="text-decoration-none">Terms of Use</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-4">
+            <h3 class="fs-4">Support</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="contact.html" class="text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="about.html" class="text-decoration-none">About Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-3">
+            <h3 class="fs-4">Quick Links</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="productPageKerala.html" class="text-decoration-none"
+                  >Honeymoon in Kerala</a
+                >
+              </li>
+              <li>
+                <a href="productPageNepal.html" class="text-decoration-none"
+                  >Honeymoon in Nepal</a
+                >
+              </li>
+              <li>
+                <a href="productPageAndaman.html" class="text-decoration-none"
+                  >Honeymoon in Andaman</a
+                >
+              </li>
+              <li>
+                <a href="productPageKashmir.html" class="text-decoration-none"
+                  >Honeymoon in Kashmir</a
+                >
+              </li>
+              <li>
+                <a href="productPageThailand.html" class="text-decoration-none"
+                  >Honeymoon in Thailand</a
+                >
+              </li>
+              <li>
+                <a href="productPageDubai.html" class="text-decoration-none"
+                  >Honeymoon in Dubai</a
+                >
+              </li>
+              <li>
+                <a href="productPageMaldives.html" class="text-decoration-none"
+                  >Honeymoon in Maldives</a
+                >
+              </li>
+              <li>
+                <a href="productPageSingapore.html" class="text-decoration-none"
+                  >Honeymoon in Singapore</a
+                >
+              </li>
+              <li>
+                <a
+                  href="productPageSwitzerland.html"
+                  class="text-decoration-none"
+                  >Honeymoon in Switzerland</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-content-center my-5">
+          <div>&copy; TriptoHoneymoon 2023. All Rights Reserved.</div>
+          <div>
+            Follow Us On:
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-instagram"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-facebook"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fa-brands mx-1 fa-lg fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
