@@ -36,6 +36,22 @@ $("#product-carousel-1").owlCarousel({
     },
   },
 });
+$(".product-carousel-1").owlCarousel({
+  margin: 15,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
+  loop: true,
+  items: 1,
+  responsive: {
+    768: {
+      items: 3,
+    },
+    1024: {
+      items: 4,
+    },
+  },
+});
 $("#product-carousel-2").owlCarousel({
   margin: 15,
   autoplay: true,
