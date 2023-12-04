@@ -127,13 +127,14 @@
             Gift Experiences choose from 10,000+ Unique Experiences
           </div>
           <div class="d-flex gap-3">
-            <button class="btn btn-danger">Send a Gift Card</button>
-            <button
+            <a class="btn btn-danger">Send a Gift Card</a>
+            <a
+              href="#formLinked"
               class="btn btn-white text-white"
               style="border: 1px solid #fff"
             >
               Corporate Gifting
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -213,15 +214,15 @@
         </div>
       </section>
       <section
-        class="gift__card--features container d-flex my-5 flex-column gap-5"
+        class="gift__card--features container bg-light p-5 d-flex my-5 flex-column gap-5"
       >
         <h1 class="text-center fw-bold">Gift Card Features</h1>
         <div class="py-5 giftExperience__cards">
           <div
             class="features__card d-flex justify-content-center align-items-center gap-3 flex-column"
           >
-            <i class="fa-solid fa-gift big__icon"></i>
-            <div>
+            <i class="fa-solid fa-gift big__icon" style="color: blueviolet"></i>
+            <div class="fw-bold">
               Instant Delivery Instant delivery of e-gift card in recipient
               inbox
             </div>
@@ -229,8 +230,8 @@
           <div
             class="features__card d-flex justify-content-center align-items-center gap-3 flex-column"
           >
-            <i class="fa-solid fa-palette big__icon"></i>
-            <div>
+            <i class="fa-solid fa-palette big__icon" style="color: green"></i>
+            <div class="fw-bold">
               Personalised Message Make your Gift special with a personalised
               message
             </div>
@@ -238,14 +239,17 @@
           <div
             class="features__card d-flex justify-content-center align-items-center gap-3 flex-column"
           >
-            <i class="fa-solid fa-lock big__icon"></i>
-            <div>Safe and Secure with pin protection</div>
+            <i class="fa-solid fa-lock big__icon" style="color: red"></i>
+            <div class="fw-bold">Safe and Secure with pin protection</div>
           </div>
           <div
             class="features__card d-flex justify-content-center align-items-center gap-3 flex-column"
           >
-            <i class="fa-solid fa-money-check big__icon"></i>
-            <div>
+            <i
+              class="fa-solid fa-money-check big__icon"
+              style="color: grey"
+            ></i>
+            <div class="fw-bold">
               Pay via gift card Direct Payment using Gift Card option on payment
             </div>
           </div>
@@ -370,6 +374,7 @@
                   </div>
                   <div
                     class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch"
+                    id="formLinked"
                   >
                     <div class="contact-wrap w-100 p-md-5 p-4">
                       <h3 class="mb-4">Get in touch</h3>
