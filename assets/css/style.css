@@ -806,10 +806,12 @@ footer :is(a, i) {
   gap: 20px;
 }
 @media (max-width: 786px) {
+  article img{
+    height: 300px;
+    width: 300px;
+  }
   .about__gift--card{
-   
     grid-template-columns: repeat(1, 1fr);
- 
   }
   .giftExperience__header h1{
     font-size: 60px;
