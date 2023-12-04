@@ -44,12 +44,11 @@ footer{
   
   justify-content: flex-end;
 }
-.blog__card
-#contact__header{
+.contact__header{
   background-image: url("https://img.freepik.com/premium-photo/people-connect-through-contact-us-customer-support-hotline-concept-finger-touch-access-contact-icons-email-address-virtual-screen-internet-wifi-represents-digital-communication-banner_143683-12449.jpg");
   background-size: cover;
   width: 100%;
-  height: 500px;
+ min-height: 480px;
 }
 .giftExperience__header{
   background-image: url("../img/giftExperience.jpg");
