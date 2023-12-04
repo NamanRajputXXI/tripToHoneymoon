@@ -17,6 +17,9 @@
   gap: 30px;
   
 }
+.btn-outline-dark{
+  margin-left: 10px;
+}
 footer{
   background-image: url("../img/footer-bg-img.jpg");
   background-size: cover;
