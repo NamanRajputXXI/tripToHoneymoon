@@ -8,6 +8,15 @@
   width: 350px;
   height: fit-content;
 }
+.blog__grid--layout{
+    
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  
+}
 footer{
   background-image: url("../img/footer-bg-img.jpg");
   background-size: cover;
