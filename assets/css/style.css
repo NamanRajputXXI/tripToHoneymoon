@@ -399,6 +399,14 @@ footer{
   position: relative;
   min-height: min(100vh, 600px);
 }
+#header-atf--domestic {
+  background-image: url(../img/domestic__background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  position: relative;
+  min-height: min(100vh, 600px);
+}
 #package-header{
   background-image: url(../img/andaman.jpg);
   background-repeat: no-repeat;
