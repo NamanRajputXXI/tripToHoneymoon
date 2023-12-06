@@ -91,10 +91,10 @@ $(".navCarousel").owlCarousel({
 
 $("#banglore__carousel--homepage").owlCarousel({
   center: true,
-  // autoplay: true,
+  
   autoplay: true,
-  stagePadding: 20,
-  margin: 20,
+  
+  margin: 15,
   loop: true,
   autoplayTimeout: 3000,
   autoplayHoverPause: true,
