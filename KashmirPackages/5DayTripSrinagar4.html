@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5 Day Package - Srinagar</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="../src/main.css" />
+    <script src="../src/bootstrap.bundle.min.js"></script>
+
+    <script defer src="../assets/js/script.js "></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="icon"
+      href="../assets/img/icons8-tour-100.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light pr-2 pb-3">
+        <div class="container d-flex justify-content-between">
+          <a href="./index.html" class="navbar-brand" aria-label="logo">
+            <img
+              class="navbar-brand"
+              id="logo"
+              src="../assets/img/logo.png"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#header_nav"
+            aria-controls="header_nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse flex-grow-0" id="header_nav">
+            <ul
+              class="navbar-nav d-flex flex-xs-column flex-lg-row w-100 justify-content-center align-items-center"
+            >
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../domestic.html">Domestic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../international.html"
+                  >International</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../blog.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./giftAnExperience.html">
+                  Gift an Experience</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="text-decoration-none text-dark small" href="">
+                  <button class="btn btn-outline-dark">
+                    <i class="fa-solid fa-phone px-1"></i>+91-1140612834
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="full-img" id="fullImgBox">
+        <img src="./assets//img/kashmir-cat.jpg" id="fullImg" alt="" />
+        <span onclick="closeFullImg()">X</span>
+      </div>
+      <header>
+        <div class="grid">
+          <div class="item1">
+            <img
+              class="grid__image"
+              src="../assets/img/kashmir-cat.jpg"
+              alt=""
+              onclick="openFullImg(this.src)"
+            />
+          </div>
+          <div class="item2">
+            <img
+              class="grid__image"
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/4d/63/60/betaab-valley.jpg?w=700&h=-1&s=1"
+              onclick="openFullImg(this.src)"
+              alt=""
+            />
+          </div>
+          <div class="item3">
+            <img
+              class="grid__image"
+              src="https://www.kashmirbeautytravels.com/uploads/0000/1/2023/01/23/kashmir.jpg"
+              onclick="openFullImg(this.src)"
+              alt=""
+            />
+          </div>
+          <div class="item4">
+            <img
+              class="grid__image"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu98h2HBMkr6WsABzRPX0DCDrpboL0iRT9Tw&usqp=CAU"
+              onclick="openFullImg(this.src)"
+              alt=""
+            />
+          </div>
+          <div class="item5">
+            <img
+              class="grid__image"
+              src="https://kashmirobserver.net/wp-content/uploads/2023/01/Gulmarg_-15-1024x630.jpg"
+              onclick="openFullImg(this.src)"
+              alt=""
+            />
+          </div>
+          <div class="item6">
+            <img
+              class="grid__image"
+              src="https://kashmirobserver.net/wp-content/uploads/2023/01/Gulmarg_-15-1024x630.jpg"
+              onclick="openFullImg(this.src)"
+              alt=""
+            />
+          </div>
+          <div class="item7">
+            <img
+              class="grid__image"
+              src="https://images.unsplash.com/photo-1623996604892-22be6b44d841?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGphbW11JTIwa2FzaG1pcnxlbnwwfHwwfHx8MA%3D%3D"
+              alt=""
+              onclick="openFullImg(this.src)"
+            />
+          </div>
+        </div>
+      </header>
+    </header>
+
+    <main class="py-5">
+      <section class="container py-5">
+        <div class="d-flex flex-column gap-5">
+          <img
+            src="https://images.unsplash.com/photo-1648539334751-562e5ad1764a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fGthc2htaXIlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D"
+            height="500px"
+            width="100%"
+            alt=""
+          />
+          <h1 class="my-5 fw-bold text-center">
+            5 Day Trip in Srinagar (Gulmarg and Pahalgam) - Details
+          </h1>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="kashmir-day1-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne-Kashmir"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 1: Jammu-Srinagar
+                </button>
+              </h2>
+              <div
+                id="collapseOne-Kashmir"
+                class="accordion-collapse collapse show"
+                aria-labelledby="kashmir-day1-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Coorts mrd nicht stay at Srinagar. After toward to Srinagar
+                  240km journey to personnel cab 6 hours and night stay at the
+                  hotel.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="kashmir-day2-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo-Kashmir"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 2: Srinagar- Gulmarg Day Tour
+                </button>
+              </h2>
+              <div
+                id="collapseTwo-Kashmir"
+                class="accordion-collapse collapse"
+                aria-labelledby="kashmir-day2-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Today after breakfast enjoy a picturesque drive to Gulmarg,
+                  the Meadow of Flowers, 2730 mts above sea level. Gulmarg
+                  offers spectacular views of snow-capped mountain peaks,
+                  conifer forests, and green meadows; it is home to the highest
+                  18 hole golf course in the world. Arrive Gulmarg and transfer
+                  to the hotel. Enjoy a Gondola ride (subject to weather
+                  conditions) to Khilanmarg (1st Phase) for a breathtaking view
+                  of Nanga Parbat. One can opt for a gondola cable car ride for
+                  the 2nd level too on a direct payment basis, subject to
+                  availability and weather conditions. Thereafter time is free
+                  for activities on your own. You may enjoy an optional sledge
+                  ride on the snow-covered slopes (on a direct payment basis).
+                  Overnight stay in Srinagar.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="kashmir-day3-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree-Kashmir"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 3: Srinagar Sightseeing
+                </button>
+              </h2>
+              <div
+                id="collapseThree-Kashmir"
+                class="accordion-collapse collapse"
+                aria-labelledby="kashmir-day3-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Today after breakfast, enjoy a Srinagar sightseeing. Visit
+                  NISHAT GARDEN located on the bank of Dal Lake, with the
+                  Zaberwan Mountains as its backdrop. Shalimar Garden, the
+                  celebrated royal garden of Kashmir, and Cheshma Shahi, the
+                  royal spring. Overnight stay in Srinagar.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="kashmir-day4-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour-Kashmir"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 4: Srinagar- Sonmarg Day Tour
+                </button>
+              </h2>
+              <div
+                id="collapseFour-Kashmir"
+                class="accordion-collapse collapse"
+                aria-labelledby="kashmir-day4-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Today after breakfast, proceed for a day excursion to Sonmarg
+                  (Golden Meadow). Sonmarg lies in Sind Valley streamed with
+                  flowers and surrounded by mountains. Sonmarg is also the base
+                  for some interesting treks to the high altitude of Himalayan
+                  Lakes. Enjoy horse riding up to Thajiwas glacier and sledge
+                  riding on snow (on a direct payment basis). Overnight stay at
+                  the hotel in Srinagar.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="kashmir-day5-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive-Kashmir"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 5: Srinagar - Pahalgam
+                </button>
+              </h2>
+              <div
+                id="collapseFive-Kashmir"
+                class="accordion-collapse collapse"
+                aria-labelledby="kashmir-day5-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Today after an early breakfast, leave for Pahalgam, the Valley
+                  of Shepherds via Srinagar. Drive through saffron fields; visit
+                  Awantipura ruins of a 1,100-year-old temple of Lord Vishnu.
+                  Drive through the pine forest and along the Lidder River.
+                  Arrive Pahalgam and transfer to your hotel. Rest of the day is
+                  at leisure. Overnight stay at the hotel in Pahalgam. Explore
+                  Aru, Betaab Valley & Chandanwari. Aru Valley, Betaab Valley,
+                  and Chandanwari offer scenic meadows, lakes, and mountains.
+                  Aru Valley is known for its picturesque landscapes and is a
+                  base camp for trekking. Betaab Valley is famous for lush green
+                  meadows and dense vegetation, and Chandanwari is the starting
+                  point of the Amarnath Yatra. Night stay at Pahalgam.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="kashmir-day6-heading">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix-Kashmir"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Day 6: Pahalgam- Jammu/ Katra
+                </button>
+              </h2>
+              <div
+                id="collapseSix-Kashmir"
+                class="accordion-collapse collapse"
+                aria-labelledby="kashmir-day6-heading"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  After breakfast towards to Katra/Jammu 240km journey 6 hours.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ftco-section mb-5">
+        <div class="container">
+          <div class="row gap justify-content-center">
+            <div class="col-md-6 text-center mb-5"></div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="wrapper">
+                <div class="row no-gutters bg-light">
+                  <div
+                    class="col-lg-4 text-light col-md-5 d-flex align-items-stretch"
+                    style="margin-left: 0px"
+                  >
+                    <div class="info-wrap bg-primary w-110 p-md-5 p-3">
+                      <h3>Let's get in touch</h3>
+                      <p class="mb-4">
+                        We're open for any suggestion or just to have a chat
+                      </p>
+                      <div
+                        class="dbox w-100 d-flex justify-content-center align-items-center gap-3"
+                      >
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <i class="fa-solid fa-location-pin"></i>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Address:</span> 34,Sewak park(1st floor),
+                            Dwarka more metro,Near metro piller no-772 New
+                            Delhi-110059.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 d-flex align-items-start gap-3">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-phone"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Phone:</span>
+                            <a
+                              class="text-decoration-none text-light"
+                              href="tel://1234567920"
+                              >+91-1140612834</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 gap-3 d-flex align-items-center">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-paper-plane"></span>
+                        </div>
+                        <div class="text pl-3 mt-3">
+                          <p>
+                            <span>Email:</span>
+                            <a
+                              class="text-decoration-none text-light"
+                              href="mailto:info@yoursite.com"
+                              >info@admireholidays.com
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 gap-3 d-flex align-items-center">
+                        <div
+                          class="icon d-flex justify-content-center align-items-center"
+                        >
+                          <span class="fa fa-globe"></span>
+                        </div>
+                        <div class="text pl-3 mt-3">
+                          <p>
+                            <span>Website</span>
+                            <a class="text-decoration-none text-light" href="#"
+                              >https://triptohoneymoon.com/</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 gap-3 d-flex align-items-center">
+                        <div
+                          class="icon d-flex justify-content-center align-items-center"
+                        >
+                          <span class="fa-solid fa-clock"></span>
+                        </div>
+                        <div class="text pl-3 mt-3">
+                          <p>
+                            <span>Timing : 10:00am to 06:00pm</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch"
+                  >
+                    <div class="contact-wrap w-100 p-md-5 p-4">
+                      <h3 class="mb-4">Get in touch</h3>
+
+                      <form
+                        method="POST"
+                        id="contactForm"
+                        name="contactForm"
+                        class="contactForm"
+                      >
+                        <div class="row">
+                          <div class="col-md-6 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="name"
+                                >Full Name</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="name"
+                                id="name"
+                                placeholder="Name"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-6 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="email"
+                                >Email Address</label
+                              >
+                              <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                id="email"
+                                placeholder="Email"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="subject"
+                                >Subject</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="subject"
+                                id="subject"
+                                placeholder="Subject"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="#">Message</label>
+                              <textarea
+                                name="message"
+                                class="form-control"
+                                id="message"
+                                cols="30"
+                                rows="4"
+                                placeholder="Message"
+                              ></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input
+                                type="submit"
+                                value="Send Message"
+                                class="btn btn-primary"
+                              />
+                              <div class="submitting"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-light text-white py-5 text-dark">
+      <div class="container">
+        <div class="row gap-5 border-bottom border-dark-subtle py-5">
+          <div class="col-lg-4 col-12">
+            <img src="../assets/img/logo.png" id="footer-brand" />
+            <p class="my-3">
+              Embark on a journey of love with our exquisite honeymoon packages.
+              We specialize in creating unforgettable moments in the most
+              romantic destinations. Explore enchanting landscapes, enjoy
+              luxurious accommodations, and celebrate the beginning of your new
+              chapter with us. Let your honeymoon be a seamless blend of romance
+              and adventure.
+            </p>
+          </div>
+          <div class="col-sm-2 col-4">
+            <h3 class="fs-4">Policy</h3>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none">Privacy</a></li>
+              <li><a href="#" class="text-decoration-none">Terms of Use</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-5">
+            <h3 class="fs-4">Support</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="contact.html" class="text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="about.html" class="text-decoration-none">About Us</a>
+              </li>
+            </ul>
+            <h3 class="fs-4">From Bangalore to</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  style="text-decoration: none"
+                  href="../BangalorePackages/madikeri.html"
+                >
+                  Madikeri
+                </a>
+              </li>
+              <li>
+                <a
+                  style="text-decoration: none"
+                  href="../BangalorePackages/chikmagalur.html"
+                >
+                  Chikmagalur
+                </a>
+              </li>
+              <li>
+                <a
+                  style="text-decoration: none"
+                  href="../BangalorePackages/mysore.html"
+                >
+                  Mysore
+                </a>
+              </li>
+              <li>
+                <a
+                  style="text-decoration: none"
+                  href="../BangalorePackages/ooty.html"
+                >
+                  Ooty
+                </a>
+              </li>
+            </ul>
+            <a
+              class="btn btn-white text-white"
+              style="text-decoration: none; border: 1px solid #fff"
+              href="../giftAnExperience.html"
+            >
+              Gift an Experience
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-12">
+            <h3 class="fs-4">Quick Links</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="../productPageKerala.html" class="text-decoration-none"
+                  >Honeymoon in Kerala</a
+                >
+              </li>
+              <li>
+                <a href="../productPageNepal.html" class="text-decoration-none"
+                  >Honeymoon in Nepal</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../productPageAndaman.html"
+                  class="text-decoration-none"
+                  >Honeymoon in Andaman</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../productPageKashmir.html"
+                  class="text-decoration-none"
+                  >Honeymoon in Kashmir</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../productPageThailand.html"
+                  class="text-decoration-none"
+                  >Honeymoon in Thailand</a
+                >
+              </li>
+              <li>
+                <a href="../productPageDubai.html" class="text-decoration-none"
+                  >Honeymoon in Dubai</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../productPageMaldives.html"
+                  class="text-decoration-none"
+                  >Honeymoon in Maldives</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../productPageSingapore.html"
+                  class="text-decoration-none"
+                  >Honeymoon in Singapore</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../productPageSwitzerland.html"
+                  class="text-decoration-none"
+                  >Honeymoon in Switzerland</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-content-center my-5">
+          <div>&copy; TriptoHoneymoon 2023. All Rights Reserved.</div>
+          <div>
+            Follow Us On:
+            <a
+              href="https://www.instagram.com/triptohoneymoon_official/"
+              class="text-decoration-none"
+            >
+              <i class="fa-brands mx-1 fa-lg fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/TripToHoneyMoon/"
+              class="text-decoration-none"
+            >
+              <i class="fa-brands mx-1 fa-lg fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      var fullImgBox = document.getElementById("fullImgBox");
+      var fullImg = document.getElementById("fullImg");
+      function openFullImg(pic) {
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+      }
+      function closeFullImg() {
+        fullImgBox.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
