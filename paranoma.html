@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paranoma - TripToHoneymoon</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="src/main.css" />
+    <script src="./src/bootstrap.bundle.min.js"></script>
+
+    <script defer src="assets/js/script.js "></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="icon"
+      href="./assets/img/icons8-tour-100.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light pr-2 pb-3">
+        <div class="container d-flex justify-content-between">
+          <a href="./index.html" class="navbar-brand" aria-label="logo">
+            <img
+              class="navbar-brand"
+              id="logo"
+              src="assets/img/logo.png"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#header_nav"
+            aria-controls="header_nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse flex-grow-0" id="header_nav">
+            <ul
+              class="navbar-nav d-flex flex-xs-column flex-lg-row w-100 justify-content-center align-items-center"
+            >
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./domestic.html">Domestic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./international.html"
+                  >International</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./giftAnExperience.html">
+                  Gift an Experience</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="text-decoration-none text-dark small" href="">
+                  <button class="btn btn-outline-dark">
+                    <i class="fa-solid fa-phone px-1"></i>+91-1140612834
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="container-fluid py-5 d-flex justify-content-center align-items-center"
+        id="paranoma__page"
+      >
+        <div
+          class="d-flex container flex-column gap-3 justify-content-between align-items-center"
+        >
+          <h1 class="display-1 text-white fw-bold">Embark on a 360 Journey</h1>
+          <p class="lead text-white text-center">
+            Immerse yourself in the beauty of our destinations through our
+            mesmerizing 360-degree virtual tours. Explore breathtaking
+            landscapes and envision your dream honeymoon with TriptoHoneymoon.
+          </p>
+          <button class="btn btn-danger px-5 py-2">Start Exploring</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="py-5">
+      <section class="py-5 container">
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div
+              class="row g-0 border paranoma__card-1 rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative"
+              style="height: 300px"
+            >
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-white"
+                  >Maldives Bliss</strong
+                >
+                <h3 class="mb-0 text-white">
+                  Dive into Paradise with 360 Views in the Maldives
+                </h3>
+                <div class="mb-1 text-white">Nov 11</div>
+                <p class="mb-auto text-white">
+                  Experience the epitome of luxury and romance in the Maldives.
+                  Immerse yourself in 360-degree panoramic views of
+                  crystal-clear waters and overwater bungalows for an
+                  unforgettable honeymoon.
+                </p>
+                <a href="#" class="w-25 btn btn-light">View 360</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="row g-0 border paranoma__card-2 rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative"
+              style="height: 300px"
+            >
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-white"
+                  >Santorini Retreat</strong
+                >
+                <h3 class="mb-0 text-white">
+                  A Panoramic Escape to Romantic Santorini
+                </h3>
+                <div class="mb-1 text-white">Nov 11</div>
+                <p class="mb-auto text-white">
+                  Immerse yourself in the breathtaking panoramas of Santorini.
+                  Discover the charm of white-washed buildings against the azure
+                  sky, creating the perfect backdrop for your dream honeymoon.
+                </p>
+                <a href="#" class="w-25 btn btn-light">View 360</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 container">
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div
+              class="row g-0 border paranoma__card-3 rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative"
+              style="height: 300px"
+            >
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-white"
+                  >Royal Udaipur</strong
+                >
+                <h3 class="mb-0 text-white">
+                  Discover the Majestic Beauty of Udaipur, India
+                </h3>
+                <div class="mb-1 text-white">Nov 11</div>
+                <p class="mb-auto text-white">
+                  Experience the regal charm of Udaipur, India, with its palaces
+                  and serene lakes. Enjoy 360-degree views of the historic city
+                  and create lasting memories on your honeymoon.
+                </p>
+                <a href="#" class="w-25 btn btn-light">View 360</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Additional Section - Bora Bora, French Polynesia -->
+          <div class="col-md-6">
+            <div
+              class="row g-0 border paranoma__card-4 rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative"
+              style="height: 300px"
+            >
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-white"
+                  >Bora Bora Bliss</strong
+                >
+                <h3 class="mb-0 text-white">
+                  Escape to the Overwater Paradise in Bora Bora
+                </h3>
+                <div class="mb-1 text-white">Nov 11</div>
+                <p class="mb-auto text-white">
+                  Indulge in the romantic allure of Bora Bora. Immerse yourself
+                  in the 360-degree views of turquoise lagoons and overwater
+                  bungalows for an unforgettable honeymoon experience.
+                </p>
+                <a href="#" class="w-25 btn btn-light">View 360</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h1 class="text-center">Testimonials</h1>
+        <div class="carousel-wrap py-5">
+          <div class="owl-carousel navCarousel container owl-theme">
+            <div
+              class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+            >
+              <p>
+                "Responsive, committed, and highly professional approach to
+                every task."
+              </p>
+              <div class="d-flex w-100 align-items-center">
+                <img
+                  class="rounded-circle fit-cover"
+                  style="width: 75px; height: 75px"
+                  src="assets/img/placeholder__image.png"
+                  alt=""
+                />
+                <div
+                  class="text-left justify-content-start d-flex px-3 flex-column"
+                >
+                  <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                    Vikas
+                  </p>
+                  <p class="text-muted text-left mb-0 w-25">CEO</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+            >
+              <p>
+                "Highly recommended! Their expertise in the field is
+                outstanding."
+              </p>
+              <div class="d-flex w-100 align-items-center">
+                <img
+                  class="rounded-circle fit-cover"
+                  style="width: 75px; height: 75px"
+                  src="assets/img/placeholder__image.png"
+                  alt=""
+                />
+                <div
+                  class="text-left justify-content-start d-flex px-3 flex-column"
+                >
+                  <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                    Minal
+                  </p>
+                  <p class="text-muted text-left mb-0">Company Owner</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+            >
+              <p>
+                "Efficient, reliable, and understanding of our project needs."
+              </p>
+              <div class="d-flex w-100 align-items-center">
+                <img
+                  class="rounded-circle fit-cover"
+                  style="width: 75px; height: 75px"
+                  src="assets/img/placeholder__image.png"
+                  alt=""
+                />
+                <div
+                  class="text-left justify-content-start d-flex px-3 flex-column"
+                >
+                  <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                    Prerna
+                  </p>
+                  <p class="text-muted text-left mb-0 w-25">Architect</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+            >
+              <p>
+                "Consistently went the extra mile to ensure project success."
+              </p>
+              <div class="d-flex w-100 align-items-center gap-2">
+                <img
+                  class="rounded-circle fit-cover"
+                  style="width: 75px; height: 75px"
+                  src="assets/img/placeholder__image.png"
+                  alt=""
+                />
+                <div
+                  class="text-left justify-content-start d-flex px-3 flex-column"
+                >
+                  <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                    Mukul
+                  </p>
+                  <p class="text-muted text-left mb-0">Engineer</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="p-4 small-shadow rounded item d-flex flex-column justify-content-center text-center align-items-center border"
+            >
+              <p>
+                "Responsive, committed, and highly professional approach to
+                every task."
+              </p>
+              <div class="d-flex w-100 align-items-center">
+                <img
+                  class="rounded-circle fit-cover"
+                  style="width: 75px; height: 75px"
+                  src="assets/img/placeholder__image.png"
+                  alt=""
+                />
+                <div
+                  class="text-left justify-content-start d-flex px-3 flex-column"
+                >
+                  <p class="fw-bold text-left mb-0 w-25" style="width: 100px">
+                    Mahesh
+                  </p>
+                  <p class="text-muted text-left mb-0 w-25">Doctor</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="container flex-column h-50 d-flex w-100 justify-content-center align-items-center"
+      >
+        <h1>FAQ</h1>
+        <div class="accordion pt-3 w-100" id="accordionExample1">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                What does the Honeymoon Package include?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample1"
+            >
+              <div class="accordion-body">
+                <strong>The Honeymoon Package includes:</strong> Romantic
+                accommodations, special dining experiences, curated activities,
+                and more to make your honeymoon unforgettable.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne-two">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-two"
+                aria-expanded="false"
+                aria-controls="collapseOne-two"
+              >
+                Can I customize my Honeymoon Package?
+              </button>
+            </h2>
+            <div
+              id="collapseOne-two"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne-two"
+              data-bs-parent="#accordionExample1"
+            >
+              <div class="accordion-body">
+                <strong>Yes, you can customize your Honeymoon Package!</strong>
+                Tailor your trip to include specific destinations, activities,
+                and amenities that suit your preferences and create a
+                personalized romantic experience.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne-three">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-three"
+                aria-expanded="false"
+                aria-controls="collapseOne-three"
+              >
+                What documents are required for international Honeymoon
+                Packages?
+              </button>
+            </h2>
+            <div
+              id="collapseOne-three"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne-three"
+              data-bs-parent="#accordionExample1"
+            >
+              <div class="accordion-body">
+                <strong
+                  >For international Honeymoon Packages, ensure you
+                  have:</strong
+                >
+                Valid passports, appropriate visas, and any specific
+                documentation required by the destination country. Check with
+                our travel experts for detailed information.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ftco-section mb-5">
+        <div class="container">
+          <div class="row gap justify-content-center">
+            <div class="col-md-6 text-center mb-5"></div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <div class="wrapper">
+                <div class="row no-gutters bg-light">
+                  <div
+                    class="col-lg-4 text-light col-md-5 d-flex align-items-stretch"
+                    style="margin-left: 0px"
+                  >
+                    <div class="info-wrap bg-primary w-110 p-md-5 p-3">
+                      <h3>Let's get in touch</h3>
+                      <p class="mb-4">
+                        We're open for any suggestion or just to have a chat
+                      </p>
+                      <div
+                        class="dbox w-100 d-flex justify-content-center align-items-center gap-3"
+                      >
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <i class="fa-solid fa-location-pin"></i>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Address:</span> 34,Sewak park(1st floor),
+                            Dwarka more metro,Near metro piller no-772 New
+                            Delhi-110059.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 d-flex align-items-start gap-3">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-phone"></span>
+                        </div>
+                        <div class="text pl-3">
+                          <p>
+                            <span>Phone:</span>
+                            <a
+                              class="text-decoration-none text-light"
+                              href="tel://1234567920"
+                              >+91-1140612834</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 gap-3 d-flex align-items-center">
+                        <div
+                          class="icon d-flex align-items-center justify-content-center"
+                        >
+                          <span class="fa fa-paper-plane"></span>
+                        </div>
+                        <div class="text pl-3 mt-3">
+                          <p>
+                            <span>Email:</span>
+                            <a
+                              class="text-decoration-none text-light"
+                              href="mailto:info@yoursite.com"
+                              >info@triptohoneymoon.com
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 gap-3 d-flex align-items-center">
+                        <div
+                          class="icon d-flex justify-content-center align-items-center"
+                        >
+                          <span class="fa fa-globe"></span>
+                        </div>
+                        <div class="text pl-3 mt-3">
+                          <p>
+                            <span>Website</span>
+                            <a class="text-decoration-none text-light" href="#"
+                              >https://triptohoneymoon.com/</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div class="dbox w-100 gap-3 d-flex align-items-center">
+                        <div
+                          class="icon d-flex justify-content-center align-items-center"
+                        >
+                          <span class="fa-solid fa-clock"></span>
+                        </div>
+                        <div class="text pl-3 mt-3">
+                          <p>
+                            <span>Timing : 10:00am to 06:00pm</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch"
+                  >
+                    <div class="contact-wrap w-100 p-md-5 p-4">
+                      <h3 class="mb-4">Get in touch</h3>
+
+                      <form
+                        method="POST"
+                        id="contactForm"
+                        name="contactForm"
+                        class="contactForm"
+                      >
+                        <div class="row">
+                          <div class="col-md-6 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="name"
+                                >Full Name</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="name"
+                                id="name"
+                                placeholder="Name"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-6 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="email"
+                                >Email Address</label
+                              >
+                              <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                id="email"
+                                placeholder="Email"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="subject"
+                                >Subject</label
+                              >
+                              <input
+                                type="text"
+                                class="form-control"
+                                name="subject"
+                                id="subject"
+                                placeholder="Subject"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-12 py-3">
+                            <div class="form-group">
+                              <label class="label py-2" for="#">Message</label>
+                              <textarea
+                                name="message"
+                                class="form-control"
+                                id="message"
+                                cols="30"
+                                rows="4"
+                                placeholder="Message"
+                              ></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <input
+                                type="submit"
+                                value="Send Message"
+                                class="btn btn-primary"
+                              />
+                              <div class="submitting"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-light text-white py-5 text-dark">
+      <div class="container">
+        <div class="row gap-5 border-bottom border-dark-subtle py-5">
+          <div class="col-lg-4 col-12">
+            <img src="assets/img/logo.png" id="footer-brand" />
+            <p class="my-3">
+              Embark on a journey of love with our exquisite honeymoon packages.
+              We specialize in creating unforgettable moments in the most
+              romantic destinations. Explore enchanting landscapes, enjoy
+              luxurious accommodations, and celebrate the beginning of your new
+              chapter with us. Let your honeymoon be a seamless blend of romance
+              and adventure.
+            </p>
+          </div>
+          <div class="col-sm-2 col-4">
+            <h3 class="fs-4">Policy</h3>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none">Privacy</a></li>
+              <li><a href="#" class="text-decoration-none">Terms of Use</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-5">
+            <h3 class="fs-4">Support</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="contact.html" class="text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="about.html" class="text-decoration-none">About Us</a>
+              </li>
+            </ul>
+            <h3 class="fs-4">From Bangalore to</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  style="text-decoration: none"
+                  href="./BangalorePackages/madikeri.html"
+                >
+                  Madikeri
+                </a>
+              </li>
+              <li>
+                <a
+                  style="text-decoration: none"
+                  href="./BangalorePackages/chikmagalur.html"
+                >
+                  Chikmagalur
+                </a>
+              </li>
+              <li>
+                <a
+                  style="text-decoration: none"
+                  href="./BangalorePackages/mysore.html"
+                >
+                  Mysore
+                </a>
+              </li>
+              <li>
+                <a
+                  style="text-decoration: none"
+                  href="./BangalorePackages/ooty.html"
+                >
+                  Ooty
+                </a>
+              </li>
+            </ul>
+            <a
+              class="btn btn-white text-white"
+              style="text-decoration: none; border: 1px solid #fff"
+              href="./giftAnExperience.html"
+            >
+              Gift an Experience
+            </a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-12">
+            <h3 class="fs-4">Quick Links</h3>
+            <ul class="list-unstyled">
+              <li>
+                <a href="productPageKerala.html" class="text-decoration-none"
+                  >Honeymoon in Kerala</a
+                >
+              </li>
+              <li>
+                <a href="productPageNepal.html" class="text-decoration-none"
+                  >Honeymoon in Nepal</a
+                >
+              </li>
+              <li>
+                <a href="productPageAndaman.html" class="text-decoration-none"
+                  >Honeymoon in Andaman</a
+                >
+              </li>
+              <li>
+                <a href="productPageKashmir.html" class="text-decoration-none"
+                  >Honeymoon in Kashmir</a
+                >
+              </li>
+              <li>
+                <a href="productPageThailand.html" class="text-decoration-none"
+                  >Honeymoon in Thailand</a
+                >
+              </li>
+              <li>
+                <a href="productPageDubai.html" class="text-decoration-none"
+                  >Honeymoon in Dubai</a
+                >
+              </li>
+              <li>
+                <a href="productPageMaldives.html" class="text-decoration-none"
+                  >Honeymoon in Maldives</a
+                >
+              </li>
+              <li>
+                <a href="productPageSingapore.html" class="text-decoration-none"
+                  >Honeymoon in Singapore</a
+                >
+              </li>
+              <li>
+                <a
+                  href="productPageSwitzerland.html"
+                  class="text-decoration-none"
+                  >Honeymoon in Switzerland</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between align-content-center my-5">
+          <div>&copy; TriptoHoneymoon 2023. All Rights Reserved.</div>
+          <div>
+            Follow Us On:
+            <a
+              href="https://www.instagram.com/triptohoneymoon_official/"
+              class="text-decoration-none"
+            >
+              <i class="fa-brands mx-1 fa-lg fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/people/Trip-to-Honeymoon/61551720045200/"
+              class="text-decoration-none"
+            >
+              <i class="fa-brands mx-1 fa-lg fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
